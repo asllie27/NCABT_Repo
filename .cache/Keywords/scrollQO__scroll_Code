@@ -1,0 +1,49 @@
+{
+  "keywordFileContentHash": "E3BD9CE55967B697BBEA7FB70E6AD88A",
+  "keywordClasses": [
+    {
+      "name": "scrollQO.scroll_Code",
+      "keywordMethods": [
+        {
+          "name": "Se_hover",
+          "parameters": [
+            {
+              "name": "selector",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Hover over an element.\r\n\t * @param selector (String) CSS selector for the element.\r\n\t */"
+        },
+        {
+          "name": "Se_hoverClick",
+          "parameters": [
+            {
+              "name": "selector",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Hover over an element then click it.\r\n\t * @param selector (String) CSS selector for the element.\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

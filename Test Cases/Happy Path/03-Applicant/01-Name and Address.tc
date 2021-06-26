@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Name and Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a00575f2-f50f-4a5b-bf73-67f423fe5979</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5694d4ab-d509-4847-810f-e8d8c6f15680</id>
+      <masked>false</masked>
+      <name>NA_BusinessName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c494cd10-e2c1-4029-8e3a-28af92c0853d</id>
+      <masked>false</masked>
+      <name>NA_InsuredDBA</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33147d7a-a533-458c-90e7-f111380277f9</id>
+      <masked>false</masked>
+      <name>NA_BusinessAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0243eb7-4320-4119-8da8-48b72d3e222f</id>
+      <masked>false</masked>
+      <name>NA_ZipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4cc5b9a5-6e85-4917-aaf6-c25e8e7a40f6</id>
+      <masked>false</masked>
+      <name>NA_ZipcodeOperation</name>
+   </variable>
+</TestCaseEntity>

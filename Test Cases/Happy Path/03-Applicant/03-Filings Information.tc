@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Filings Information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e697f8f4-a81b-4bb8-a293-a04d541ffe28</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d51138b9-a563-4c96-a70f-ffc1ab5718a8</id>
+      <masked>false</masked>
+      <name>FI_USDot</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfa99251-8132-4630-a100-704969e6c45c</id>
+      <masked>false</masked>
+      <name>FI_DOT</name>
+   </variable>
+</TestCaseEntity>

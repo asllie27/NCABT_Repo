@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-Additional Interest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6c8f966-721f-4d60-b506-69937e3a5ae0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8f775449-1087-4dca-8abd-abf9595f731f</id>
+      <masked>false</masked>
+      <name>AI_EntityType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8739b00-0268-43ce-94f8-7e7b417e3052</id>
+      <masked>false</masked>
+      <name>AI_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36daa7b3-a874-4bfc-89fc-04b07ea958b2</id>
+      <masked>false</masked>
+      <name>AI_Address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d149eff-3b0b-419d-8951-cafe68cc7cca</id>
+      <masked>false</masked>
+      <name>AI_ZipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f4446b9-9cd3-44b2-ae4d-761e8ee10fa4</id>
+      <masked>false</masked>
+      <name>AI_EffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>493d0fab-d975-4c22-a1f6-8dd3443fac96</id>
+      <masked>false</masked>
+      <name>AI_ExpDate</name>
+   </variable>
+</TestCaseEntity>

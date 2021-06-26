@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Historical Coverage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5216e700-14b2-431b-af58-bf13a716a734</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6222ab4-58a8-4dd7-b5f5-bd5a9a5ee275</id>
+      <masked>false</masked>
+      <name>HC_PolStartDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8a15053a-d3dd-4820-9195-f0ff188abd3c</id>
+      <masked>false</masked>
+      <name>HC_LiabilityLimits</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f1cdfd14-aaf5-4c1d-9a3d-50a274f08768</id>
+      <masked>false</masked>
+      <name>HC_LiabilityDeductible</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63f2582b-9ed5-42f0-b189-4555bf72d613</id>
+      <masked>false</masked>
+      <name>HC_PowerUnits</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c5e87a9-0986-4c35-9bda-f5295ddf474f</id>
+      <masked>false</masked>
+      <name>HC_TotalFleetMileage</name>
+   </variable>
+</TestCaseEntity>

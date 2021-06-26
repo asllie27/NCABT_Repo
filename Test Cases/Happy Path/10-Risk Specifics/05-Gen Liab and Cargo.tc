@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-Gen Liab and Cargo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe185563-8bb5-4903-8ec4-08c175c4a92e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b21a098-7d28-4700-b5d8-e53cd94c125b</id>
+      <masked>false</masked>
+      <name>RS_GLPayroll</name>
+   </variable>
+</TestCaseEntity>

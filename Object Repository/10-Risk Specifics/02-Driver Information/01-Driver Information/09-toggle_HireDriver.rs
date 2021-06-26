@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>09-toggle_HireDriver</name>
+   <tag></tag>
+   <elementGuidId>372f9818-a209-4222-a3d5-42ef95a00a1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isHiringFromOthersWithoutDriver']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isHiringFromOthersWithoutDriver']</value>
+   </webElementProperties>
+</WebElementEntity>

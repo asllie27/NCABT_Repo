@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05-toggle_ManageCompany</name>
+   <tag></tag>
+   <elementGuidId>25423877-4030-41ab-bd6e-0ea73e9a6553</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isMaintenanceProgramManagedByCompany']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isMaintenanceProgramManagedByCompany']</value>
+   </webElementProperties>
+</WebElementEntity>

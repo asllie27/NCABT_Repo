@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05-txt_DOB</name>
+   <tag></tag>
+   <elementGuidId>f98d6a8d-f321-4a24-b384-f963fb62f5fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@placeholder='mm/dd/yyyy'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@placeholder='mm/dd/yyyy'])[2]</value>
+   </webElementProperties>
+</WebElementEntity>

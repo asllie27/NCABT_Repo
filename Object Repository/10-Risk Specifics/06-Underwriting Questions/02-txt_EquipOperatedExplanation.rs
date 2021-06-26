@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-txt_EquipOperatedExplanation</name>
+   <tag></tag>
+   <elementGuidId>8e1ec0d0-4c6f-4dd0-8c63-ccf4639c7829</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='equipmentsOperatedUnderAuthorityExplanation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='equipmentsOperatedUnderAuthorityExplanation']</value>
+   </webElementProperties>
+</WebElementEntity>

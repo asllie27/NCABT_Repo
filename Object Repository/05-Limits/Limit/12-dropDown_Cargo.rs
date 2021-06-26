@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12-dropDown_Cargo</name>
+   <tag></tag>
+   <elementGuidId>34ab7658-0b04-4e03-99b0-809680c2018f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'cargoLimitId')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'cargoLimitId')]</value>
+   </webElementProperties>
+</WebElementEntity>

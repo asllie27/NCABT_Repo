@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07-datePicker_ExpirationDate</name>
+   <tag></tag>
+   <elementGuidId>916adb87-c5fd-476f-863f-4f091d233852</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[contains(@placeholder,'mm/dd/yyyy')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[contains(@placeholder,'mm/dd/yyyy')])[2]</value>
+   </webElementProperties>
+</WebElementEntity>

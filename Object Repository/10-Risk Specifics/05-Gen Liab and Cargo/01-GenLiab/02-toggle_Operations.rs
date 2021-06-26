@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-toggle_Operations</name>
+   <tag></tag>
+   <elementGuidId>0440a8fc-3965-4064-834d-6322790cb108</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='operationsAtStorageLotOrImpoundYard']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='operationsAtStorageLotOrImpoundYard']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03-dropDown_UMPD</name>
+   <tag></tag>
+   <elementGuidId>494076e4-19bd-4426-afff-a4c2eeceeb94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'umpdLimitSymbolId')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'umpdLimitSymbolId')]</value>
+   </webElementProperties>
+</WebElementEntity>

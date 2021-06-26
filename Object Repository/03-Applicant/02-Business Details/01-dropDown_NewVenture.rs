@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01-dropDown_NewVenture</name>
+   <tag></tag>
+   <elementGuidId>10d7142a-5681-4843-81d6-75e2e41a106c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='newVenturePreviousExperienceDropdown']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='newVenturePreviousExperienceDropdown']</value>
+   </webElementProperties>
+</WebElementEntity>

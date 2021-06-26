@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12-dropDown_CompFT</name>
+   <tag></tag>
+   <elementGuidId>51384c60-e2a1-4e90-a134-18cad6a73979</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[6]/div[2]/select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[6]/div[2]/select[1]</value>
+   </webElementProperties>
+</WebElementEntity>

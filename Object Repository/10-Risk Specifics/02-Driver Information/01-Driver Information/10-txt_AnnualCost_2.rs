@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>10-txt_AnnualCost_2</name>
+   <tag></tag>
+   <elementGuidId>b0eaaf55-5a64-4c10-a6fa-ae7f97cd4ee7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='annualCostOfHireFromOthersWithoutDriver']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='annualCostOfHireFromOthersWithoutDriver']</value>
+   </webElementProperties>
+</WebElementEntity>

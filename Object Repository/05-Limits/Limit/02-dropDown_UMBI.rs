@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-dropDown_UMBI</name>
+   <tag></tag>
+   <elementGuidId>5ef47218-0917-4fa3-8c4e-70232bd747c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'umbiLimitId')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'umbiLimitId')]</value>
+   </webElementProperties>
+</WebElementEntity>

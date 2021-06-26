@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04-dropDown_UnderMBI</name>
+   <tag></tag>
+   <elementGuidId>d25594af-8634-44de-ab54-b4efe7e6ebad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'uimbiLimitId')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'uimbiLimitId')]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-toggle_5yrsExp</name>
+   <tag></tag>
+   <elementGuidId>c6ff7537-d102-4bfa-ad8e-ea9bca7260b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='doDriversHave5YearsDrivingExperience']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='doDriversHave5YearsDrivingExperience']</value>
+   </webElementProperties>
+</WebElementEntity>

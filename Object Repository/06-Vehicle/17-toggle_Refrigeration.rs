@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>17-toggle_Refrigeration</name>
+   <tag></tag>
+   <elementGuidId>bd62912c-145c-4110-8e36-b4235e583432</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'hasCoverageRefrigeration')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'hasCoverageRefrigeration')]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11-dropDown_GenLiab</name>
+   <tag></tag>
+   <elementGuidId>f6d072b9-0e41-4685-86ce-570532bb1ffa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[contains(@id,'glbiLimitId')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[contains(@id,'glbiLimitId')]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03-toggle_RiskPlan</name>
+   <tag></tag>
+   <elementGuidId>92e60231-1d80-4bc1-8b10-4b5d35ea0163</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='hasInsuranceBeenObtainedThruAssignedRiskPlan']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='hasInsuranceBeenObtainedThruAssignedRiskPlan']</value>
+   </webElementProperties>
+</WebElementEntity>

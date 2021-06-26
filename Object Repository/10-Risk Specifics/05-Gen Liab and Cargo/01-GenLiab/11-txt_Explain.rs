@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11-txt_Explain</name>
+   <tag></tag>
+   <elementGuidId>4301a1db-a6a2-4b32-81ac-64297189edcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='hasApplicantHadGeneralLiabilityLossExplain']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='hasApplicantHadGeneralLiabilityLossExplain']</value>
+   </webElementProperties>
+</WebElementEntity>

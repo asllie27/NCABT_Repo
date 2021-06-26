@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08-dropDown_GrossVehicle</name>
+   <tag></tag>
+   <elementGuidId>4d88cd47-61a6-4ed1-96e1-bbe7d4b85e57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[3]/select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[3]/select[1]</value>
+   </webElementProperties>
+</WebElementEntity>

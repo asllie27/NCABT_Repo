@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11-toggle_GenLiabLoss</name>
+   <tag></tag>
+   <elementGuidId>5de4ad2c-33a3-4216-a1b7-1acb2201a0f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='hasApplicantHadGeneralLiabilityLoss']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='hasApplicantHadGeneralLiabilityLoss']</value>
+   </webElementProperties>
+</WebElementEntity>

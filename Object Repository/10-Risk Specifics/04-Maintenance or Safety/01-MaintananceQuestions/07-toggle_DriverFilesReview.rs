@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07-toggle_DriverFilesReview</name>
+   <tag></tag>
+   <elementGuidId>18346514-cc49-4753-843a-20cbc0f84690</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areDriverFilesAvailableForReview']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areDriverFilesAvailableForReview']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07-toggle_IncentiveProgram</name>
+   <tag></tag>
+   <elementGuidId>26bdbb7a-aee6-4be4-98b9-a1247a3ede33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isThereDriverIncentiveProgram']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isThereDriverIncentiveProgram']</value>
+   </webElementProperties>
+</WebElementEntity>

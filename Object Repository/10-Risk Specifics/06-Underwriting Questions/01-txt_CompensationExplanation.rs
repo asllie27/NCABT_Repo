@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01-txt_CompensationExplanation</name>
+   <tag></tag>
+   <elementGuidId>451b0d7c-1cb1-491c-9f48-055ad62ec952</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='workersCompensationProvidedExplanation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='workersCompensationProvidedExplanation']</value>
+   </webElementProperties>
+</WebElementEntity>

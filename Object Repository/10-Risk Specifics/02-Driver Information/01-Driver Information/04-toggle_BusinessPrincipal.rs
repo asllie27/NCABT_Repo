@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04-toggle_BusinessPrincipal</name>
+   <tag></tag>
+   <elementGuidId>dd492c77-84d3-4174-8caf-c6556e8eec5c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isBusinessPrincipalADriverInPolicy']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isBusinessPrincipalADriverInPolicy']</value>
+   </webElementProperties>
+</WebElementEntity>

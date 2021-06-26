@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03-dropDwon_MVRPulled</name>
+   <tag></tag>
+   <elementGuidId>90489cf6-48e9-4235-85e2-55026479a9bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@formcontrolname='mvrPullingFrequency']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@formcontrolname='mvrPullingFrequency']</value>
+   </webElementProperties>
+</WebElementEntity>

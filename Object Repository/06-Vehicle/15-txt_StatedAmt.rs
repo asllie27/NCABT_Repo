@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>15-txt_StatedAmt</name>
+   <tag></tag>
+   <elementGuidId>ed5be21f-6830-45c7-ace1-72386daf7e87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[8]/div[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[8]/div[1]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

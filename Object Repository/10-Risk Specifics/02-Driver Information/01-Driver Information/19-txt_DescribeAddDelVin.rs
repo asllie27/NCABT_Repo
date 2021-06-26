@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>19-txt_DescribeAddDelVin</name>
+   <tag></tag>
+   <elementGuidId>19f2e9aa-1871-4472-a713-83119b814cc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='decsribeAddOrDeleteVehiclesDuringPolicyTerm']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='decsribeAddOrDeleteVehiclesDuringPolicyTerm']</value>
+   </webElementProperties>
+</WebElementEntity>

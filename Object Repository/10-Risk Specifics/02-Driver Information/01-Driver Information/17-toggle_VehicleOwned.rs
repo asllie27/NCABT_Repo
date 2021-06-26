@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>17-toggle_VehicleOwned</name>
+   <tag></tag>
+   <elementGuidId>578ce252-35da-4c77-9fc0-42e4349de963</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areVehiclesSolelyOwnedByApplicant']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areVehiclesSolelyOwnedByApplicant']</value>
+   </webElementProperties>
+</WebElementEntity>

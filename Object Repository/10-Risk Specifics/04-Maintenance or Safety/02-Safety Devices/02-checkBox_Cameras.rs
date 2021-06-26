@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-checkBox_Cameras</name>
+   <tag></tag>
+   <elementGuidId>702bc8ac-b8f2-48f4-8c38-f5a7180bfaaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//div[contains(.,'Cameras')])[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//div[contains(.,'Cameras')])[11]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07-txt_Covid19Vehicle</name>
+   <tag></tag>
+   <elementGuidId>6a72d047-99c7-4750-a64c-0c94cd32373e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='numberOfVehiclesRunningDuringCovid19']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='numberOfVehiclesRunningDuringCovid19']</value>
+   </webElementProperties>
+</WebElementEntity>

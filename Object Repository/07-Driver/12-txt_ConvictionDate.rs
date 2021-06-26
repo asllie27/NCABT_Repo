@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>12-txt_ConvictionDate</name>
+   <tag></tag>
+   <elementGuidId>bfed51fa-1e49-4197-b6cf-2c4caa9de6ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@placeholder='mm/dd/yyyy'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@placeholder='mm/dd/yyyy'])[6]</value>
+   </webElementProperties>
+</WebElementEntity>

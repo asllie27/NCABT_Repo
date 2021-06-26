@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08-multiDropDown_BGCheck</name>
+   <tag></tag>
+   <elementGuidId>34fa9947-1869-40bc-935e-88a01aec7568</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//span[contains(@class,'dropdown-btn')])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//span[contains(@class,'dropdown-btn')])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

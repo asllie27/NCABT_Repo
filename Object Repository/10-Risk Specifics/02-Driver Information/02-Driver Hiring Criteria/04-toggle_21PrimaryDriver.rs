@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04-toggle_21PrimaryDriver</name>
+   <tag></tag>
+   <elementGuidId>c124fc04-8995-4698-b769-7be20ad3a27e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areFamilyMembersUnder21PrimaryDriversOfCompanyAuto']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areFamilyMembersUnder21PrimaryDriversOfCompanyAuto']</value>
+   </webElementProperties>
+</WebElementEntity>

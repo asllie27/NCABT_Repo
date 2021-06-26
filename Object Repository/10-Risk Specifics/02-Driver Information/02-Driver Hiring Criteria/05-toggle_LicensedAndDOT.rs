@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05-toggle_LicensedAndDOT</name>
+   <tag></tag>
+   <elementGuidId>4601d534-1316-4eb5-bdc1-e304e79bc56f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areDriversProperlyLicensedDotCompliant']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areDriversProperlyLicensedDotCompliant']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08-toggle_StorageFuelChemicals</name>
+   <tag></tag>
+   <elementGuidId>0a556b89-7410-4fb3-bddc-18d920444ea4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='anyStorageOfFuelsAndOrChemicals']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='anyStorageOfFuelsAndOrChemicals']</value>
+   </webElementProperties>
+</WebElementEntity>

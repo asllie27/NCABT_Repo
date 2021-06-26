@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>11-dtxt_TotalAmountDueInstallment</name>
+   <tag></tag>
+   <elementGuidId>8e7d54a8-ce2f-4806-a60b-dd84b091ed3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@formcontrolname='totalAmountDueInstallment']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@formcontrolname='totalAmountDueInstallment']</value>
+   </webElementProperties>
+</WebElementEntity>

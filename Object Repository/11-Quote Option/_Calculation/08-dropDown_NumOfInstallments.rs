@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08-dropDown_NumOfInstallments</name>
+   <tag></tag>
+   <elementGuidId>bdaafbbd-92dc-4fc9-bf34-d0597c0dc8d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@formcontrolname='numberOfInstallments']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@formcontrolname='numberOfInstallments']</value>
+   </webElementProperties>
+</WebElementEntity>

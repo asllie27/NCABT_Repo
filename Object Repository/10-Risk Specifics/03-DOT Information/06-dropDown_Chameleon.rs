@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>06-dropDown_Chameleon</name>
+   <tag></tag>
+   <elementGuidId>4d74c675-f2ca-48a9-9387-dc5b9059cdea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@formcontrolname='chameleonIssues']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@formcontrolname='chameleonIssues']</value>
+   </webElementProperties>
+</WebElementEntity>

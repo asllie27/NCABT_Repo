@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>08-toggle_OperatorsWork_NO</name>
+   <tag></tag>
+   <elementGuidId>771963ed-c940-4175-9c3d-d85f15af4d19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isOperatorsWorkOnlyForInsured']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isOperatorsWorkOnlyForInsured']</value>
+   </webElementProperties>
+</WebElementEntity>

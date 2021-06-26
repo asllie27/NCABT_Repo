@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>10-txt_Explain</name>
+   <tag></tag>
+   <elementGuidId>c5f12639-d23b-4bd9-ae6d-1d39b0423301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id='haveOperationsOtherThanTruckingExplain']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@id='haveOperationsOtherThanTruckingExplain']</value>
+   </webElementProperties>
+</WebElementEntity>

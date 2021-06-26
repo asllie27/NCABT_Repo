@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>09-toggle_policyLevelAccidents</name>
+   <tag></tag>
+   <elementGuidId>b3880494-2fa1-4a17-82bc-4fa8fb727393</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isThereAnyPolicyLevelAccidents']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isThereAnyPolicyLevelAccidents']</value>
+   </webElementProperties>
+</WebElementEntity>

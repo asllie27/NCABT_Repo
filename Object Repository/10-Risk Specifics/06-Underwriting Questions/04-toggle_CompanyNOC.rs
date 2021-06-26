@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>04-toggle_CompanyNOC</name>
+   <tag></tag>
+   <elementGuidId>be6c1936-c520-43a2-8127-0c6d76ce806f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='hasAnyCompanyProvidedNoticeOfCancellation']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='hasAnyCompanyProvidedNoticeOfCancellation']</value>
+   </webElementProperties>
+</WebElementEntity>

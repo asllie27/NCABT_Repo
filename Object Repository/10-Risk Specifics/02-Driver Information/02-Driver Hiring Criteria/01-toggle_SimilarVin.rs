@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01-toggle_SimilarVin</name>
+   <tag></tag>
+   <elementGuidId>2563dabf-92bb-4c4b-b3e3-b4be38295bda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areDriversDrivingSimilarVehicleCommerciallyForMoreThan2Years']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areDriversDrivingSimilarVehicleCommerciallyForMoreThan2Years']</value>
+   </webElementProperties>
+</WebElementEntity>

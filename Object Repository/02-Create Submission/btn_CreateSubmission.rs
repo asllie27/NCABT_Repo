@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_CreateSubmission</name>
+   <tag></tag>
+   <elementGuidId>7eb8a8df-7f37-4074-ac9a-3d3a179297ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@routerlink='/submissions/new/applicant/']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@routerlink='/submissions/new/applicant/']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05-toggle_StoredTruckOvernyt</name>
+   <tag></tag>
+   <elementGuidId>bb247cce-81c8-4fb6-908e-c78e4f3ea0a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areCommoditiesStoredInTruckOvernight']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areCommoditiesStoredInTruckOvernight']</value>
+   </webElementProperties>
+</WebElementEntity>

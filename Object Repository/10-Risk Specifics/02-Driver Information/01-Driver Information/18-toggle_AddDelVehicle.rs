@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>18-toggle_AddDelVehicle</name>
+   <tag></tag>
+   <elementGuidId>fc0a700a-9838-4a7f-8814-011a9165de66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='willBeAddingDeletingVehiclesDuringTerm']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='willBeAddingDeletingVehiclesDuringTerm']</value>
+   </webElementProperties>
+</WebElementEntity>

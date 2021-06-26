@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>01-txt_PTStartDate</name>
+   <tag></tag>
+   <elementGuidId>1be3dfdf-87a8-4dae-aefe-7ff811b4e60e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@placeholder='mm/dd/yyyy'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@placeholder='mm/dd/yyyy'])[1]</value>
+   </webElementProperties>
+</WebElementEntity>

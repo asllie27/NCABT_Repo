@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>10-toggle_OperationsOtherThanTrucking</name>
+   <tag></tag>
+   <elementGuidId>5054e93c-da0c-4ef7-9ee6-d6569355eadd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='haveOperationsOtherThanTrucking']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='haveOperationsOtherThanTrucking']</value>
+   </webElementProperties>
+</WebElementEntity>

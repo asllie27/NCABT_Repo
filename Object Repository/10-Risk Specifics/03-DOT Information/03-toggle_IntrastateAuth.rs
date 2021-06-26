@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>03-toggle_IntrastateAuth</name>
+   <tag></tag>
+   <elementGuidId>7dd7509d-d160-47b1-be17-e9240f9c6ed5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='doesApplicantHaveInsterstateAuthority']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='doesApplicantHaveInsterstateAuthority']</value>
+   </webElementProperties>
+</WebElementEntity>

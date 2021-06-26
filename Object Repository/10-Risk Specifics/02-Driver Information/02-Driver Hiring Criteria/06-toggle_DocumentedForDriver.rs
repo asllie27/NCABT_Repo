@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>06-toggle_DocumentedForDriver</name>
+   <tag></tag>
+   <elementGuidId>1ccc0b98-52e2-42f7-aa0b-d908cee8aa8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='isDisciplinaryPlanDocumented']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='isDisciplinaryPlanDocumented']</value>
+   </webElementProperties>
+</WebElementEntity>

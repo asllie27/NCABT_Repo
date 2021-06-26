@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>14-dropDown_CollDed</name>
+   <tag></tag>
+   <elementGuidId>65284672-ae1e-4ed8-a6fd-aa3196840b42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[7]/div[2]/select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-vehicle[1]/div[1]/app-vehicle-information[1]/div[1]/div[3]/div[1]/div[1]/app-vehicle-information-section[1]/div[1]/div[1]/form[1]/div[1]/div[7]/div[2]/select[1]</value>
+   </webElementProperties>
+</WebElementEntity>

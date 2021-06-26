@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-toggle_EquipmentOperated</name>
+   <tag></tag>
+   <elementGuidId>648a0546-5e21-44d7-a2e3-b738b98d3e24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='areAllEquipmentOperatedUnderApplicantsAuthority']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='areAllEquipmentOperatedUnderApplicantsAuthority']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02-txt_2_Description</name>
+   <tag></tag>
+   <elementGuidId>9b17e49c-a5c8-461a-a0a1-1f1eb1de4ee5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//textarea[@id='unitDescription'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//textarea[@id='unitDescription'])[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>07-txt_AgencyWritten</name>
+   <tag></tag>
+   <elementGuidId>9b6bd19f-d05c-47c1-b5d7-cc308e248383</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[contains(@formcontrolname,'yearsWithAgency')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[contains(@formcontrolname,'yearsWithAgency')]</value>
+   </webElementProperties>
+</WebElementEntity>

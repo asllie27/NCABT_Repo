@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>05-toggle_StorageVehicle</name>
+   <tag></tag>
+   <elementGuidId>47ef2b5e-6a41-4b8b-8ecd-0240f06c94fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id='anyStorageOfVehiclesForOthers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@id='anyStorageOfVehiclesForOthers']</value>
+   </webElementProperties>
+</WebElementEntity>

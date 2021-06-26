@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>10-toggle_Subsidiaries</name>
+   <tag></tag>
+   <elementGuidId>ef23e207-6345-4909-bfdf-e719db515ca2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[contains(@id,'anySubsidiariesCompaniesSwitch')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[contains(@id,'anySubsidiariesCompaniesSwitch')]</value>
+   </webElementProperties>
+</WebElementEntity>

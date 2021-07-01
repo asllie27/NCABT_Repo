@@ -26,7 +26,7 @@ WebUI.waitForElementClickable(findTestObject('11-Quote Option/03-btn_Upload'), 4
 
 String quoteNumber = WebUI.getText(findTestObject('11-Quote Option/00-lbl-SubmissionNumber'))
 
-String filePath = ('C:\\Users\\Asllie Sablan\\Downloads\\' + quoteNumber) + '.xlsb'
+String filePath = ('D:\\Download\\' + quoteNumber) + '.xlsb'
 
 System.out.println('File Path is: ' + filePath)
 

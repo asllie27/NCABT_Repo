@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//input[@type='text'])[106]</value>
+         <value>//body[1]/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-historical-coverage[1]/div[1]/app-historical-coverage-section[1]/div[1]/div[2]/div[1]/form[1]/app-projection-figures-chart[1]/form[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//input[@type='text'])[106]</value>
+      <value>//body[1]/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-historical-coverage[1]/div[1]/app-historical-coverage-section[1]/div[1]/div[2]/div[1]/form[1]/app-projection-figures-chart[1]/form[1]/div[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]</value>
    </webElementProperties>
 </WebElementEntity>

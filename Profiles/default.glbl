@@ -39,4 +39,9 @@
       <initValue>'9999999'</initValue>
       <name>Position_X</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app-boxtruck-uistaging.azurewebsites.net/'</initValue>
+      <name>STG_Env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

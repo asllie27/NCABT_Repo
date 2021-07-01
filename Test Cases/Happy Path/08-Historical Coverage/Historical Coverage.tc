@@ -40,4 +40,18 @@
       <masked>false</masked>
       <name>HC_TotalFleetMileage</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce5a68f1-0642-499a-961d-b865418f4795</id>
+      <masked>false</masked>
+      <name>HC_CollisionDeductible</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>79d4bc7b-56ac-41c2-8706-3df938efad8e</id>
+      <masked>false</masked>
+      <name>HC_CompreDeductible</name>
+   </variable>
 </TestCaseEntity>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>TD_HappyPath</name>
+   <name>TD_ManyState</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>b80e4fbf-adb8-4bc9-945f-dfa2ea85fb2d</dataFileGUID>
-   <dataSourceUrl>C:\Users\Asllie Sablan\Katalon Studio\GIT\NCABT_Repo\Test Data\NCABT.xlsx</dataSourceUrl>
+   <dataFileGUID>00bbc964-d57c-4b53-9765-60f9d60f0482</dataFileGUID>
+   <dataSourceUrl>C:\Users\Elijah Siason\git\NCABT_Repo\Test Data\ManyStates\NCABT_ManyState.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

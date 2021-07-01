@@ -41,11 +41,11 @@ WebUI.setText(findTestObject('09-Claims History/08-txt_OpenClaims'), CH_OpenClai
 
 WebUI.setText(findTestObject('09-Claims History/09-txt_NetLoss'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/10-txt_TotalClaim'), '2')
+WebUI.setText(findTestObject('09-Claims History/10-txt_TotalClaim'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/11-txt_NumberClaims_Cargo'), '2')
+WebUI.setText(findTestObject('09-Claims History/11-txt_NumberClaims_Cargo'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/12-txt_NumberClaims_GenLiab'), '2')
+WebUI.setText(findTestObject('09-Claims History/12-txt_NumberClaims_GenLiab'), '1500')
 
 WebUI.click(findTestObject('09-Claims History/btn_Next'))
 

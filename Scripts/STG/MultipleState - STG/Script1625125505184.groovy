@@ -15,11 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Happy Path/00-Login/UW_LogIn'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+//Login
+WebUI.callTestCase(findTestCase('STG/UW_LogIn_STG'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Happy Path/02-CreateSubmission/CreateSubmission'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('STG/CreateSubmission_STG'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-//APPLICANT- NAME AND ADDRESS
+//Applicant
 WebUI.waitForElementClickable(findTestObject('03-Applicant/01-Name and Address/01-txt_BusinessName'), GlobalVariable.Wait)
 
 WebUI.setText(findTestObject('03-Applicant/01-Name and Address/01-txt_BusinessName'), NA_BusinessName)
@@ -42,13 +43,80 @@ WebUI.setText(findTestObject('03-Applicant/01-Name and Address/07-txt_Email'), '
 
 WebUI.setText(findTestObject('03-Applicant/01-Name and Address/08-Phone'), '1234567890')
 
+//ADDED
+//AL
+not_run: String cityExpected = 'NJ'
+
+not_run: String cityActual = WebUI.getAttribute(findTestObject('03-Applicant/01-Name and Address/Page_BoxTruck/input_State_businessStateInput'), 
+    'value')
+
+not_run: System.out.println('Value of Expected City: ' + cityExpected)
+
+not_run: System.out.println('Value of Actual City: ' + cityActual)
+
+not_run: WebUI.verifyMatch(cityExpected, cityActual, false)
+
+//END
 WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
 
+//ADDING GARAGING ADDRESS
+//Add Garaging Address KY 
+/*
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/01-btn_Add'))
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/02-btn_AddAddress_Blue'))
+
+WebUI.setText(findTestObject('03-Applicant/01-Name and Address/Address Table/03-txt_ZipCode'), '41007')
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'))
+
+WebUI.waitForElementVisible(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'), GlobalVariable.Wait)
+
+WebUI.setText(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'), '001 KY')
+
+WebUI.selectOptionByLabel(findTestObject('03-Applicant/01-Name and Address/Address Table/05-dropDown_City'), 'California', 
+    false)
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/06-btn_AddAdress_Red'))
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/07-btn_AddEntityAddress'))
+*/
+//End
+//Add Garaging Address KY
+/*
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/01-btn_Add'))
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/02-btn_AddAddress_Blue'))
+
+WebUI.setText(findTestObject('03-Applicant/01-Name and Address/Address Table/03-txt_ZipCode'), '64473')
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'))
+
+WebUI.waitForElementVisible(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'), GlobalVariable.Wait)
+
+WebUI.setText(findTestObject('03-Applicant/01-Name and Address/Address Table/04-txt_Street'), '002 MO')
+
+WebUI.selectOptionByLabel(findTestObject('03-Applicant/01-Name and Address/Address Table/05-dropDown_City'), 'Oregon', false)
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/06-btn_AddAdress_Red'))
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/07-btn_AddEntityAddress'))
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/Delete/01-btn_Delete1'))
+
+WebUI.waitForElementVisible(findTestObject('03-Applicant/01-Name and Address/Address Table/Delete/02-btn_PopUpYes'), GlobalVariable.Wait)
+
+WebUI.click(findTestObject('03-Applicant/01-Name and Address/Address Table/Delete/02-btn_PopUpYes'))
+
+WebUI.waitForElementVisible(findTestObject('03-Applicant/01-Name and Address/09-btn_Next'), GlobalVariable.Wait)
+*/
+//End
 WebUI.click(findTestObject('03-Applicant/01-Name and Address/09-btn_Next'))
 
-//APPLICANT- BUSINESS DETAILS
 WebUI.waitForElementClickable(findTestObject('03-Applicant/02-Business Details/01-toggle_Venture'), GlobalVariable.Wait)
 
+//WebUI.click(findTestObject('03-Applicant/02-Business Details/01-toggle_Venture'))
+//WebUI.selectOptionByValue(findTestObject('03-Applicant/02-Business Details/01-dropDown_NewVenture'), '4', false)
 WebUI.setText(findTestObject('03-Applicant/02-Business Details/02-txt_YearEstablished'), BD_YearEstablished)
 
 WebUI.click(findTestObject('03-Applicant/02-Business Details/02-txt_1stYear'))
@@ -74,15 +142,35 @@ WebUI.setText(findTestObject('03-Applicant/02-Business Details/08-txt_FederalID'
 
 WebUI.setText(findTestObject('03-Applicant/02-Business Details/09-txt_NAICSCode'), '1234567890')
 
+//Changes added table on going testing
+/*WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.waitForElementClickable(findTestObject('03-Applicant/02-Business Details/10-toggle_Subsidiaries'), GlobalVariable.Wait)
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/10-toggle_Subsidiaries'))
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/11-txt_NameOfCompany'), 'TEST Name of Company')
+
+WebUI.selectOptionByValue(findTestObject('03-Applicant/02-Business Details/12-dropDown_TypeOfBusiness'), '2', false)
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/13-txt_NumberOfVehicles'), '1234')
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/14-txt_Relationship'), 'TEST Relationship')
+
+WebUI.scrollToPosition(9999999, 9999999)
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/15-toggle_CompanyPast'))
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/16-txt_NameYearsOfOperation'), 'TEST Names 1 year')
+*/
 //Writing SubmissionNumber
 String quoteNumber = WebUI.getText(findTestObject('03-Applicant/02-Business Details/00-lbl_SubmissionNumber'))
 
 CustomKeywords.'policyNumber.getPolicyNumber.getQuoteNumber'(quoteNumber)
 
 //End
-WebUI.click(findTestObject('03-Applicant/02-Business Details/btn_Next'))
+WebUI.click(findTestObject('03-Applicant/02-Business Details/17-btn_Next'))
 
-//APPLICANT- FILLINGS INFORMATION
 WebUI.waitForElementClickable(findTestObject('03-Applicant/03-Fillings Information/01-toggle_ARatedCarrier'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('03-Applicant/03-Fillings Information/01-toggle_ARatedCarrier'))
@@ -109,7 +197,6 @@ WebUI.setText(findTestObject('03-Applicant/03-Fillings Information/10_txt_DOT'),
 
 WebUI.click(findTestObject('03-Applicant/03-Fillings Information/11_btn_Next'))
 
-//APPLICANT- ADDITIONAL INTEREST
 WebUI.waitForElementClickable(findTestObject('03-Applicant/04-Additional Interest/01-btn_AddButton'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/01-btn_AddButton'))
@@ -134,7 +221,7 @@ WebUI.click(findTestObject('03-Applicant/04-Additional Interest/10-btn_AddAdditi
 
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/11-btn_Next'))
 
-//BROKER
+//Broker
 WebUI.waitForElementClickable(findTestObject('04-Broker/01-dropDown_Agency'), GlobalVariable.Wait)
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/01-dropDown_Agency'), B_Agency, false)
@@ -149,14 +236,29 @@ WebUI.selectOptionByLabel(findTestObject('04-Broker/04-dropDown_Retailer'), 'Ame
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/05-dropDown_AgentName'), 'SubJames Business', false)
 
+//WebUI.click(findTestObject('04-Broker/06-toggle_Incumbent'))
+//WebUI.setText(findTestObject('04-Broker/07-txt_AgencyWritten'), '999')
 WebUI.scrollToPosition(0, 9999999)
 
+//WebUI.waitForElementClickable(findTestObject('04-Broker/08-toggle_MidtermMove'), GlobalVariable.Wait)
+//WebUI.click(findTestObject('04-Broker/08-toggle_MidtermMove'))
+//WebUI.selectOptionByValue(findTestObject('04-Broker/09-dropDown_ReasonMove'), '4', false)
 WebUI.click(findTestObject('04-Broker/10-btn_Next'))
 
-//LIMITS- HAPPY PATH
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/03-dropDown_UMPD'), L_UMPD, false)
+
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Symbol/01-dropDown_AL'), '1) Any Auto', false)
+
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/05-dropDown_UnderMPD'), L_UnderPD, false)
+
+//Limits
 WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/06-dropDown_MedicalPayment'), L_MedicalPayment, false)
 
 WebUI.selectOptionByValue(findTestObject('05-Limits/Symbol/06-dropDown_MedicalPayment'), '6', false)
+
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/07-dropDown_PIP'), L_PIP, false)
+
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Symbol/07-dropDown_PIP'), L_PIPSymbol, false)
 
 WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/08-dropDown_LiabilityDed'), L_LiabilityDeductible, false)
 
@@ -178,118 +280,211 @@ WebUI.waitForElementClickable(findTestObject('05-Limits/btn_Next'), GlobalVariab
 
 WebUI.click(findTestObject('05-Limits/btn_Next'))
 
-//VEHICLE
+//Vehicle
 WebUI.scrollToPosition(10, 10)
 
-WebUI.waitForElementClickable(findTestObject('06-Vehicle/01-btn_Add'), GlobalVariable.Wait)
+//1-9
+for (int i = 1; i <= 9; i++) {
+    WebUI.scrollToPosition(10, 10)
 
-WebUI.click(findTestObject('06-Vehicle/01-btn_Add'))
+    WebUI.waitForElementClickable(findTestObject('06-Vehicle/01-btn_Add'), GlobalVariable.Wait)
 
-WebUI.waitForElementClickable(findTestObject('06-Vehicle/02-dropDown_Year'), GlobalVariable.Wait)
+    WebUI.click(findTestObject('06-Vehicle/01-btn_Add'))
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/02-dropDown_Year'), V_Year, false)
+    WebUI.waitForElementClickable(findTestObject('06-Vehicle/02-dropDown_Year'), GlobalVariable.Wait)
 
-WebUI.setText(findTestObject('06-Vehicle/03-txt_Make'), V_Make)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/02-dropDown_Year'), V_Year, false)
 
-WebUI.setText(findTestObject('06-Vehicle/04-txt_Model'), V_Model)
+    WebUI.setText(findTestObject('06-Vehicle/03-txt_Make'), V_Make)
 
-WebUI.setText(findTestObject('06-Vehicle/05-txt_VIN'), 'CAR00000000000001')
+    WebUI.setText(findTestObject('06-Vehicle/04-txt_Model'), V_Model)
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/20-dropDown_RegisteredState'), V_RegisteredState, false)
+    WebUI.setText(findTestObject('06-Vehicle/05-txt_VIN'), 'CAR0000000000000' + i)
 
-WebUI.setText(findTestObject('06-Vehicle/06-txt_Style'), 'STYLE TEST')
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/20-dropDown_RegisteredState'), V_RegisteredState, false)
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/07_dropDown_VehicleType'), 'Power Unit', false)
+    WebUI.setText(findTestObject('06-Vehicle/06-txt_Style'), 'STYLE TEST')
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/08-dropDown_GrossVehicle'), V_GrossVehicleWeight, false)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/07_dropDown_VehicleType'), 'Power Unit', false)
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/09-dropDown_VehicleDescription'), V_VehicleDescription, false)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/08-dropDown_GrossVehicle'), V_GrossVehicleWeight, false)
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/10-dropDown_VehicleBusinessClass'), V_BusinessClass, false)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/09-dropDown_VehicleDescription'), V_VehicleDescription, false)
 
-//Toggle
-WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/10-dropDown_VehicleBusinessClass'), V_BusinessClass, false)
 
-WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
+    //Toggle
+    WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/12-dropDown_CompFT'), V_CompFT, false)
+    WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
 
-WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/12-dropDown_CompFT'), V_CompFT, false)
 
-WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
+    WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/14-dropDown_CollDed'), V_Collision, false)
+    WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
 
-//END
-WebUI.setText(findTestObject('06-Vehicle/15-txt_StatedAmt'), V_StatedAmount)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/14-dropDown_CollDed'), V_Collision, false)
 
-//Set to NO
-WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
+    //END
+    WebUI.setText(findTestObject('06-Vehicle/15-txt_StatedAmt'), V_StatedAmount)
 
-//Set to YES
-WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
+    //Set to NO
+    WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
 
-//Set to NO
-WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
+    //Set to YES
+    WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
 
-//Set to YES
-WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
+    //Set to NO
+    WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
 
-WebUI.scrollToElement(findTestObject('06-Vehicle/18-dropDown_UseClass'), GlobalVariable.Wait)
+    //Set to YES
+    WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
 
-WebUI.selectOptionByLabel(findTestObject('06-Vehicle/18-dropDown_UseClass'), V_UseClass, false)
+    WebUI.scrollToElement(findTestObject('06-Vehicle/18-dropDown_UseClass'), GlobalVariable.Wait)
 
-WebUI.waitForElementClickable(findTestObject('06-Vehicle/19-btn_AddVehicle'), GlobalVariable.Wait)
+    WebUI.selectOptionByLabel(findTestObject('06-Vehicle/18-dropDown_UseClass'), V_UseClass, false)
 
-WebUI.click(findTestObject('06-Vehicle/19-btn_AddVehicle'))
+    WebUI.waitForElementClickable(findTestObject('06-Vehicle/19-btn_AddVehicle'), GlobalVariable.Wait)
 
+    WebUI.click(findTestObject('06-Vehicle/19-btn_AddVehicle'))
+}
+
+//10-12
+for (int i = 10; i <= 12; i++) {
+
+	WebUI.scrollToPosition(10, 10)
+	
+	WebUI.waitForElementClickable(findTestObject('06-Vehicle/01-btn_Add'), GlobalVariable.Wait)
+	
+	WebUI.click(findTestObject('06-Vehicle/01-btn_Add'))
+	
+	WebUI.waitForElementClickable(findTestObject('06-Vehicle/02-dropDown_Year'), GlobalVariable.Wait)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/02-dropDown_Year'), V_Year, false)
+	
+	WebUI.setText(findTestObject('06-Vehicle/03-txt_Make'), V_Make)
+	
+	WebUI.setText(findTestObject('06-Vehicle/04-txt_Model'), V_Model)
+	
+	WebUI.setText(findTestObject('06-Vehicle/05-txt_VIN'), 'CAR000000000000' + i)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/20-dropDown_RegisteredState'), V_RegisteredState, false)
+	
+	WebUI.setText(findTestObject('06-Vehicle/06-txt_Style'), 'STYLE TEST')
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/07_dropDown_VehicleType'), 'Power Unit', false)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/08-dropDown_GrossVehicle'), V_GrossVehicleWeight, false)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/09-dropDown_VehicleDescription'), V_VehicleDescription, false)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/10-dropDown_VehicleBusinessClass'), V_BusinessClass, false)
+	
+	//Toggle
+	WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
+	
+	WebUI.click(findTestObject('06-Vehicle/11-toggle_CompFT'))
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/12-dropDown_CompFT'), V_CompFT, false)
+	
+	WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
+	
+	WebUI.click(findTestObject('06-Vehicle/13-toggle_Collision'))
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/14-dropDown_CollDed'), V_Collision, false)
+	
+	//END
+	WebUI.setText(findTestObject('06-Vehicle/15-txt_StatedAmt'), V_StatedAmount)
+	
+	//Set to NO
+	WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
+	
+	//Set to YES
+	WebUI.click(findTestObject('06-Vehicle/16-toggle_Cargo'))
+	
+	//Set to NO
+	WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
+	
+	//Set to YES
+	WebUI.click(findTestObject('06-Vehicle/17-toggle_Refrigeration'))
+	
+	WebUI.scrollToElement(findTestObject('06-Vehicle/18-dropDown_UseClass'), GlobalVariable.Wait)
+	
+	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/18-dropDown_UseClass'), V_UseClass, false)
+	
+	WebUI.waitForElementClickable(findTestObject('06-Vehicle/19-btn_AddVehicle'), GlobalVariable.Wait)
+	
+	WebUI.click(findTestObject('06-Vehicle/19-btn_AddVehicle'))
+}
 WebUI.click(findTestObject('06-Vehicle/btn_Next'))
 
-//DRIVER
 WebUI.scrollToPosition(10, 10)
 
-WebUI.waitForElementClickable(findTestObject('07-Driver/01-btn_Add'), GlobalVariable.Wait)
+//Driver
+for (int i = 1; i <= 12; i++) {
+    WebUI.waitForElementClickable(findTestObject('07-Driver/01-btn_Add'), GlobalVariable.Wait)
 
-WebUI.click(findTestObject('07-Driver/01-btn_Add'))
+    WebUI.click(findTestObject('07-Driver/01-btn_Add'))
 
-WebUI.setText(findTestObject('07-Driver/02-txt_FName'), 'FirstName')
+    WebUI.setText(findTestObject('07-Driver/02-txt_FName'), 'FirstName' + i)
 
-WebUI.setText(findTestObject('07-Driver/03-txt_LName'), D_Lname)
+    WebUI.setText(findTestObject('07-Driver/03-txt_LName'), D_Lname)
 
-WebUI.setText(findTestObject('07-Driver/04-txt_LicenseNumber'), 'F255-921-50-094-1')
+    WebUI.setText(findTestObject('07-Driver/04-txt_LicenseNumber'), 'F255-921-50-094-' + i)
 
-WebUI.click(findTestObject('07-Driver/05-txt_DOB'))
+    WebUI.click(findTestObject('07-Driver/05-txt_DOB'))
 
-WebUI.setText(findTestObject('07-Driver/05-txt_DOB'), D_DOB)
+    WebUI.setText(findTestObject('07-Driver/05-txt_DOB'), D_DOB)
 
-WebUI.click(findTestObject('07-Driver/06-toggle_OSD'))
+    WebUI.click(findTestObject('07-Driver/06-toggle_OSD'))
 
-WebUI.selectOptionByLabel(findTestObject('07-Driver/07-dropDown_State'), D_State, false)
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/07-dropDown_State'), D_State, false)
 
-WebUI.setText(findTestObject('07-Driver/08-txt_YDE'), '3')
+    WebUI.setText(findTestObject('07-Driver/08-txt_YDE'), '3')
 
-WebUI.setText(findTestObject('07-Driver/09-txt-YCDE'), D_YCDE)
+    WebUI.setText(findTestObject('07-Driver/09-txt-YCDE'), D_YCDE)
 
-//AddIncident
-WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
+    //AddIncident
+    WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
 
-WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
+    WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
 
-WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'At-Fault', false)
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'At-Fault', false)
 
-WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
 
-WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
 
-WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03182021')
+    WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03182021')
 
-WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
+    WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
 
-WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03202021')
+    WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03202021')
 
-WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
+    WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
 
-WebUI.click(findTestObject('07-Driver/14-btn_AddDriver'))
+    //AddIncident
+    WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
+
+    WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
+
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'Not At-Fault', false)
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03202021')
+
+    WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03272021')
+
+    WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
+
+    WebUI.click(findTestObject('07-Driver/14-btn_AddDriver'))
+}
 
 WebUI.click(findTestObject('07-Driver/15-multiDropDown_DriverFilter'))
 
@@ -297,7 +492,7 @@ WebUI.click(findTestObject('07-Driver/16-checkBox_SelectAll'))
 
 WebUI.click(findTestObject('07-Driver/btn_Next'))
 
-//HISTORICAL COV
+//Historical Coverage
 WebUI.waitForElementClickable(findTestObject('08-Historical Coverage/01-txt_PTStartDate'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('08-Historical Coverage/01-txt_PTStartDate'))
@@ -306,6 +501,7 @@ WebUI.setText(findTestObject('08-Historical Coverage/01-txt_PTStartDate'), HC_Po
 
 WebUI.click(findTestObject('08-Historical Coverage/Outside/Outside_1'))
 
+//WebUI.click(findTestObject('08-Historical Coverage/02-btn_PTEndDate'))
 WebUI.setText(findTestObject('08-Historical Coverage/03-txt_CarrierBroker'), 'TEST INSURANCE')
 
 WebUI.setText(findTestObject('08-Historical Coverage/04-txt_LiabilityLimits'), HC_LiabilityLimits)
@@ -318,7 +514,7 @@ WebUI.setText(findTestObject('08-Historical Coverage/07-txt_PDVechicle'), '12500
 
 WebUI.setText(findTestObject('08-Historical Coverage/08-txt_TotalPVehicle'), '12500')
 
-WebUI.setText(findTestObject('08-Historical Coverage/09-txt_NoVehicle'), '10')
+WebUI.setText(findTestObject('08-Historical Coverage/09-txt_NoVehicle'), '20')
 
 WebUI.click(findTestObject('08-Historical Coverage/10-txt_LossRunDate'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -330,22 +526,25 @@ WebUI.setText(findTestObject('08-Historical Coverage/12-txt_NoSpareVehicle'), '3
 
 WebUI.setText(findTestObject('08-Historical Coverage/13-txt_NoDriver'), '400')
 
-//Gross Revenues WHEN THE VEHICLE AND DRIVER IS ONE
+WebUI.setText(findTestObject('08-Historical Coverage/CollisionDeductible'), HC_CollisionDeductible)
+
+WebUI.setText(findTestObject('08-Historical Coverage/ComprehensiveDeductible'), HC_CompreDeductible)
+
 WebUI.setText(findTestObject('08-Historical Coverage/14-txt_CargoLimits'), '12500')
 
-//Total Fleet Mileage WHEN THE VEHICLE AND DRIVER IS ONE
 WebUI.setText(findTestObject('08-Historical Coverage/15-txt_RefCargoLimits'), '12500')
 
 WebUI.waitForElementClickable(findTestObject('08-Historical Coverage/16-txt_GrossRevenues'), GlobalVariable.Wait)
 
-//NoOneWayTrips WHEN THE VEHICLE AND DRIVER IS ONE
 WebUI.setText(findTestObject('08-Historical Coverage/16-txt_GrossRevenues'), '125000')
 
-//WebUI.setText(findTestObject('08-Historical Coverage/17-txt_TotalFleetMileage'), HC_TotalFleetMileage)
-//WebUI.setText(findTestObject('08-Historical Coverage/18-txt_NoOneWayTrips'), '12500')
+WebUI.setText(findTestObject('08-Historical Coverage/17-txt_TotalFleetMileage'), HC_TotalFleetMileage)
+
+WebUI.setText(findTestObject('08-Historical Coverage/18-txt_NoOneWayTrips'), '12500')
+
 WebUI.click(findTestObject('08-Historical Coverage/btn_Next'))
 
-//CLAIMS HISTORY
+//Claims history
 WebUI.waitForElementClickable(findTestObject('09-Claims History/01-txt_LossRunDate'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('09-Claims History/01-txt_LossRunDate'))
@@ -372,16 +571,14 @@ WebUI.setText(findTestObject('09-Claims History/08-txt_OpenClaims'), CH_OpenClai
 
 WebUI.setText(findTestObject('09-Claims History/09-txt_NetLoss'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/10-txt_TotalClaim'), '2')
+WebUI.setText(findTestObject('09-Claims History/10-txt_TotalClaim'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/11-txt_NumberClaims_Cargo'), '2')
+WebUI.setText(findTestObject('09-Claims History/11-txt_NumberClaims_Cargo'), '1500')
 
-WebUI.setText(findTestObject('09-Claims History/12-txt_NumberClaims_GenLiab'), '2')
+WebUI.setText(findTestObject('09-Claims History/12-txt_NumberClaims_GenLiab'), '1500')
 
 WebUI.click(findTestObject('09-Claims History/btn_Next'))
 
-//RISK SPECIFICS
-//DESTINATION INFO
 WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
     GlobalVariable.Wait)
 
@@ -425,9 +622,9 @@ WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/02-Radi
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/11-txt_DescribeExp'), 
     'TEST')
 
+//Risk Specifics
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/btn_Next'))
 
-//DRIVER INFO
 WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/01-dropDown_DriverHired'), 
     GlobalVariable.Wait)
 
@@ -440,9 +637,73 @@ WebUI.selectOptionByLabel(findTestObject('10-Risk Specifics/02-Driver Informatio
 WebUI.selectOptionByLabel(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/03-dropDwon_MVRPulled'), 
     'Annually', false)
 
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/04-toggle_BusinessPrincipal'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/05-toggle_Volunteers'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/06-txt_PercentageStaff'), '50')
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/07-toggle_HireFromOthers'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/08-txt_AnnualCost_1'), '10000')
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/09-toggle_HireDriver'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/10-txt_AnnualCost_2'), '10000')
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/11-toggle_LeasingToOthers'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/12-txt_AnnualIncome_1'), '10000')
+
+WebUI.scrollToPosition(100, 200)
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/13-toggle_LeaseDriver'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/14-txt_AnnualIncome_2'), '10000')
+
+WebUI.scrollToPosition(400, 500)
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/15-toggle_AssumedLiability'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/16-toggle_VehicleHome'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/17-toggle_VehicleOwned'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/18-toggle_AddDelVehicle'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/02-Driver Information/01-Driver Information/19-txt_DescribeAddDelVin'), 
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia at. Semper auctor neque vitae tempus quam pellentesque nec nam. Sed ullamcorper morbi tincidunt ornare. Id interdum velit laoreet id donec ultrices tincidunt arcu. Tortor at auctor urna nunc id. Pellentesque eu tincidunt tortor aliquam. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Tempor orci dapibus ultrices in iaculis. Sit amet justo donec enim diam vulputate ut pharetra sit. Blandit massa enim nec dui nunc mattis. Elit eget gravida cum sociis. Enim eu turpis egestas pretium aenean pharetra magna ac. Aliquet porttitor lacus luctus accumsan tortor posuere. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Risus feugiat in ante metus dictum at. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Fringilla ph')
+
+WebUI.scrollToPosition(700, 800)
+
+//Driver Hiring Criteria
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/01-toggle_SimilarVin'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/02-toggle_5yrsExp'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/03-toggle_AgreeReport'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/04-toggle_21PrimaryDriver'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/05-toggle_LicensedAndDOT'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/06-toggle_DocumentedForDriver'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/07-toggle_IncentiveProgram'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/08-multiDropDown_BGCheck'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/09-checkBox_SelectAll'))
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/10-multiDropDown_DriverTraining'))
+
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/12-checkBox_DT_None'), 
+    GlobalVariable.Wait)
+
+WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/02-Driver Hiring Criteria/12-checkBox_DT_None'))
+
 WebUI.click(findTestObject('10-Risk Specifics/02-Driver Information/btn_Next'))
 
-//DOT INFO
 WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/03-DOT Information/01-toggle_DOTNumber'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('10-Risk Specifics/03-DOT Information/01-toggle_DOTNumber'))
@@ -486,8 +747,43 @@ WebUI.click(findTestObject('10-Risk Specifics/03-DOT Information/00_Basic Alert 
 
 WebUI.click(findTestObject('10-Risk Specifics/03-DOT Information/btn_Next'))
 
-//MAINTENANCE AND SAFETY
-WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/02-Safety Devices/01-multiDropDown_SafetyDevice_One'))
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/01-dropDown_SafetyMeetings'), 
+    GlobalVariable.Wait)
+
+WebUI.selectOptionByLabel(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/01-dropDown_SafetyMeetings'), 
+    'Quarterly', false)
+
+WebUI.setText(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/02-txt_ChargeClaims'), 
+    'Test Claims')
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/03-multiDropDown_GaragingType'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/03-checkBox_SelectAll'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/04-multiDropDown_Maintenance'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/04-checkBox_SelectAll'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/04-multiDropDown_Maintenance'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/04-multiDropDown_Maintenance'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/05-toggle_ManageCompany'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/06-toggle_MaintenanceVin'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/07-toggle_DriverFilesReview'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/08-AccidentReview'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/09-multiDropDown_CompanyPractices'))
+
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/01-MaintananceQuestions/10-checkBox_SelectAll'))
+
+WebUI.scrollToPosition(0, 9999999)
+
+//Safety Devices
+WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/02-Safety Devices/01-multiDropDown_SafetyDevice'))
 
 WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/02-Safety Devices/02-checkBox_Cameras'))
 
@@ -521,8 +817,6 @@ WebUI.setText(findTestObject('10-Risk Specifics/04-Maintenance or Safety/02-Safe
 
 WebUI.click(findTestObject('10-Risk Specifics/04-Maintenance or Safety/btn_Next'))
 
-//GENLIAB AND CARGO
-//GenLiab
 WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/01-GenLiab/01-toggle_CarryGenLiab'), 
     GlobalVariable.Wait)
 
@@ -582,13 +876,12 @@ WebUI.selectOptionByValue(findTestObject('10-Risk Specifics/05-Gen Liab and Carg
     'APPLIANCES', false)
 
 WebUI.setText(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/02-Cargo/Commodities Hauled Table/03-txt_PercentCarry'), 
-    '50')
+    '100')
 
 WebUI.click(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/02-Cargo/Commodities Hauled Table/04-btn_AddCommodity'))
 
 WebUI.click(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/btn_Next'))
 
-//UNDERWRITING QUESTIONS
 WebUI.waitForElementVisible(findTestObject('10-Risk Specifics/06-Underwriting Questions/01-toggle_ProvideCompensation'), 
     GlobalVariable.Wait)
 
@@ -626,26 +919,28 @@ WebUI.click(findTestObject('10-Risk Specifics/06-Underwriting Questions/06-toggl
 
 WebUI.setText(findTestObject('10-Risk Specifics/06-Underwriting Questions/06-txt_SuspensionExplanation'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum sed arcu non odio euismod lacinia at. Semper auctor neque vitae tempus quam pellentesque nec nam. Sed ullamcorper morbi tincidunt ornare. Id interdum velit laoreet id donec ultrices tincidunt arcu. Tortor at auctor urna nunc id. Pellentesque eu tincidunt tortor aliquam. Hac habitasse platea dictumst quisque sagittis purus sit amet volutpat. Tempor orci dapibus ultrices in iaculis. Sit amet justo donec enim diam vulputate ut pharetra sit. Blandit massa enim nec dui nunc mattis. Elit eget gravida cum sociis. Enim eu turpis egestas pretium aenean pharetra magna ac. Aliquet porttitor lacus luctus accumsan tortor posuere. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Risus feugiat in ante metus dictum at. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Fringilla ph')
 
+WebUI.click(findTestObject('10-Risk Specifics/06-Underwriting Questions/07-toggle_Covid19'))
+
+WebUI.setText(findTestObject('10-Risk Specifics/06-Underwriting Questions/07-txt_Covid19Vehicle'), '10000')
+
 WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
 
 WebUI.check(findTestObject('10-Risk Specifics/06-Underwriting Questions/08-checkBox_Iconfirm'))
 
 WebUI.click(findTestObject('10-Risk Specifics/06-Underwriting Questions/09-btn_Next'))
 
-
-//QUOTE OPTIONS
 WebUI.waitForElementClickable(findTestObject('11-Quote Option/01-btn_DownloadExp'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('11-Quote Option/01-btn_DownloadExp'))
 
-WebUI.delay(260)
+WebUI.delay(250)
 
 //Upload Start
 WebUI.waitForElementClickable(findTestObject('11-Quote Option/03-btn_Upload'), 45)
 
-String quoteNumber = WebUI.getText(findTestObject('11-Quote Option/00-lbl-SubmissionNumber'))
+String quoteNumber1 = WebUI.getText(findTestObject('11-Quote Option/00-lbl-SubmissionNumber'))
 
-String filePath = ('D:\\Download\\' + quoteNumber) + '.xlsb'
+String filePath = ('C:\\Users\\Elijah Siason\\Downloads\\' + quoteNumber1) + '.xlsb'
 
 System.out.println('File Path is: ' + filePath)
 
@@ -666,5 +961,4 @@ WebUI.waitForElementVisible(findTestObject('11-Quote Option/btn_Next'), GlobalVa
 WebUI.waitForElementClickable(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('11-Quote Option/btn_Next'))
-
 

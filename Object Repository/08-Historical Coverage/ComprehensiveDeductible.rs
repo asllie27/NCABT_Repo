@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>17-txt_TotalFleetMileage</name>
+   <name>ComprehensiveDeductible</name>
    <tag></tag>
-   <elementGuidId>da427970-fbd8-44da-802f-d56b38f89eaa</elementGuidId>
+   <elementGuidId>8d2f63ca-fc73-4cb9-827b-1d2558a59e54</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//tbody/tr[2]/td[2]/input[1]</value>
+         <value>//tbody/tr[15]/td[2]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//tbody/tr[2]/td[2]/input[1]</value>
+      <value>//tbody/tr[15]/td[2]/input[1]</value>
    </webElementProperties>
 </WebElementEntity>

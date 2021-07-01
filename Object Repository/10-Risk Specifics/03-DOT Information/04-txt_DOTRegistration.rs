@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@placeholder='mm/dd/yyyy']</value>
+         <value>//input[@id='false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@placeholder='mm/dd/yyyy']</value>
+      <value>//input[@id='false']</value>
    </webElementProperties>
 </WebElementEntity>

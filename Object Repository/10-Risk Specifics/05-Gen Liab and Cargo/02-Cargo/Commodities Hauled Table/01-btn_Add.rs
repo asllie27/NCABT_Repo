@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@data-toggle='modal']</value>
+         <value>//thead/tr[1]/th[3]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@data-toggle='modal']</value>
+      <value>//thead/tr[1]/th[3]/button[1]</value>
    </webElementProperties>
 </WebElementEntity>

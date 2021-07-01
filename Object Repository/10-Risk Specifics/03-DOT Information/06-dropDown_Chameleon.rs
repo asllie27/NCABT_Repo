@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[@formcontrolname='chameleonIssues']</value>
+         <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-risk-specifics[1]/app-dot-information[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[3]/div[1]/select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[@formcontrolname='chameleonIssues']</value>
+      <value>//body/app-main-sidebar-layout[1]/div[1]/main[1]/div[1]/app-submission-details[1]/app-risk-specifics[1]/app-dot-information[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[3]/div[1]/select[1]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class='icon-plus']</value>
+         <value>//button[@tooltip='Add Destination']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//i[@class='icon-plus']</value>
+      <value>//button[@tooltip='Add Destination']</value>
    </webElementProperties>
 </WebElementEntity>

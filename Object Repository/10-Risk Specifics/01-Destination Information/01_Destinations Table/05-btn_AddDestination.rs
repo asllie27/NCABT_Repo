@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(.,'Add Destination')]</value>
+         <value>//button[@class='btn btn-primary'][contains(.,'Add Destination')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[contains(.,'Add Destination')]</value>
+      <value>//button[@class='btn btn-primary'][contains(.,'Add Destination')]</value>
    </webElementProperties>
 </WebElementEntity>

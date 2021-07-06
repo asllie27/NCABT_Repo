@@ -28,43 +28,34 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/03-Applicant/01-Name and Address</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NA_BusinessName</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>5694d4ab-d509-4847-810f-e8d8c6f15680</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NA_InsuredDBA</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c494cd10-e2c1-4029-8e3a-28af92c0853d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NA_BusinessAddress</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>33147d7a-a533-458c-90e7-f111380277f9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NA_ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>d0243eb7-4320-4119-8da8-48b72d3e222f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>b9d203a3-e5b2-41ae-a76f-0c7f2eb1081f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>NA_ZipcodeOperation</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>4cc5b9a5-6e85-4917-aaf6-c25e8e7a40f6</variableId>
       </variableLink>
    </testCaseLink>
@@ -73,15 +64,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/03-Applicant/02-Business Details</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -95,33 +77,33 @@
          <variableId>50ebadc8-a2d9-44c1-821c-94126fdecccd</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>BD_YearEstablished</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f3e501ed-8167-44e7-9361-00783f8a8dc1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>BD_BusinessType</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>998c7eca-4fcb-46a4-859c-e119ad722051</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>BD_MainUse</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>fe64a879-6862-4996-8a85-cecb08c7043c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>BD_AcctCategory</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>cf073fe3-2194-4beb-b3f3-83e6e825a03d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>9ae38d60-3c87-4f6c-b0ba-d2b7b4c45cb6</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>BD_UWAcctCategory</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>fbd87b01-2c66-4262-901f-3dfae7419ddd</variableId>
       </variableLink>
       <variableLink>
@@ -148,15 +130,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/03-Applicant/03-Filings Information</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>67a13222-67b1-4650-9f49-ae6522ccbc50</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -175,37 +148,28 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/03-Applicant/04-Additional Interest</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>843b48f2-251e-48c3-be2f-393defdc078f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>843b48f2-251e-48c3-be2f-393defdc078f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AI_EntityType</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>8f775449-1087-4dca-8abd-abf9595f731f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>843b48f2-251e-48c3-be2f-393defdc078f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AI_Name</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c8739b00-0268-43ce-94f8-7e7b417e3052</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>843b48f2-251e-48c3-be2f-393defdc078f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AI_Address</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>36daa7b3-a874-4bfc-89fc-04b07ea958b2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>843b48f2-251e-48c3-be2f-393defdc078f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>AI_ZipCode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0d149eff-3b0b-419d-8951-cafe68cc7cca</variableId>
       </variableLink>
       <variableLink>
@@ -226,25 +190,16 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/04-Broker/Broker</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>a2a8b5e0-2e2c-46a6-a4e8-bc9036670a02</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>a2a8b5e0-2e2c-46a6-a4e8-bc9036670a02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>B_Agency</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>088eb07a-43f4-4239-bd8b-67db863c33d6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a2a8b5e0-2e2c-46a6-a4e8-bc9036670a02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>B_AgentName</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f87e41c3-0be6-4d2c-8c15-ef8acf794cc9</variableId>
       </variableLink>
       <variableLink>
@@ -277,73 +232,64 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/05-Limits/Limits_Label_DropDownText</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>fe3947e8-18ca-48ff-8fa3-90badbe38a61</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_CompFT</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f55e3aae-3e87-4881-ac80-9efe1be8c422</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_Collision</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>66b2a29b-3809-47e0-b27f-63b5bc4eb51f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_GenLiab</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>e4f74bff-1532-4b64-b084-ff145f5050a9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_Cargo</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>01e6b283-a849-4e2c-8508-8ee3d37c2bf5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_RefBreakdown</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>42bc4b2f-be63-4784-b326-1c9a2a90252c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_AutoLiab</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>19ab5dfb-e8b0-4a44-8951-e251c72ab5b4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_UMPD</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>2c29e755-cb79-4755-bfdc-7fb1f25c7e26</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_UnderPD</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0bdfed81-f6bd-4626-bea1-e230de53cb8b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_MedicalPayment</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>319e1403-7b84-42dd-ada3-6bfbeb7cac9e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>fe3947e8-18ca-48ff-8fa3-90badbe38a61</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>L_LiabilityDeductible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>222eeb58-2f46-4de2-b987-8f5515ab1665</variableId>
       </variableLink>
    </testCaseLink>
@@ -352,79 +298,70 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/06-Vehicle/Vehicles</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_Year</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>cc5335b7-55b3-4868-9c23-a03fe95e3ad1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_Make</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ddef9383-3365-42a1-bcdf-96befd571129</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_Model</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>a54bea02-73b8-4ca5-ae1d-005df37eb870</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_RegisteredState</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>dfe905e6-2f82-4979-8b16-5d1e674dfd5e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_GrossVehicleWeight</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>fd009e11-76a7-4f9c-87ea-30326f260d64</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_VehicleDescription</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>6fe42613-d025-4380-9221-ccfdb2d9ee1d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_BusinessClass</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>83a43d4a-85ee-419a-897e-3204a78c1b16</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_CompFT</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>3cd28bd6-14b8-465c-8ee5-df8583938732</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_Collision</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>86900366-b4a2-48f1-981f-da3d8be46e0b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_StatedAmount</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ef4e870c-5bd3-4e0f-9330-71f9a7e4a50c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d44a77d8-781f-42be-8ef0-9dbeecbc13e1</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>V_UseClass</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>43b07f77-e68d-458e-8c91-2847487d29b9</variableId>
       </variableLink>
    </testCaseLink>
@@ -433,37 +370,28 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/07-Driver/Drivers</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6400542d-6967-42fa-9bde-41613c50512b</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>6400542d-6967-42fa-9bde-41613c50512b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>D_Lname</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>8bbed0db-78c9-4c0c-a782-094f9e08a922</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6400542d-6967-42fa-9bde-41613c50512b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>D_DOB</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ed1a9063-4898-45f0-95ab-cd5d2336df51</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6400542d-6967-42fa-9bde-41613c50512b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>D_State</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>91cb586a-1a68-41d2-bb2a-4169dca95912</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6400542d-6967-42fa-9bde-41613c50512b</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>D_YCDE</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>dc6c1c53-21e3-4010-95eb-ef431d2f74e7</variableId>
       </variableLink>
    </testCaseLink>
@@ -472,55 +400,46 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/08-Historical Coverage/Historical Coverage</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>335054ae-0b88-4f76-aa19-0eb6beec4a4d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_PolStartDate</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>e6222ab4-58a8-4dd7-b5f5-bd5a9a5ee275</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_LiabilityLimits</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>8a15053a-d3dd-4820-9195-f0ff188abd3c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_LiabilityDeductible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>f1cdfd14-aaf5-4c1d-9a3d-50a274f08768</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_PowerUnits</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>63f2582b-9ed5-42f0-b189-4555bf72d613</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_TotalFleetMileage</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>3c5e87a9-0986-4c35-9bda-f5295ddf474f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_CollisionDeductible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ce5a68f1-0642-499a-961d-b865418f4795</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>335054ae-0b88-4f76-aa19-0eb6beec4a4d</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>HC_CompreDeductible</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>79d4bc7b-56ac-41c2-8706-3df938efad8e</variableId>
       </variableLink>
    </testCaseLink>
@@ -529,61 +448,52 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/09-Claims History/Claims History</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1dee9118-a149-46ed-9ac1-62e835198d07</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_LossRunDate</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>4e81d763-e0bc-404d-988d-99e2800494b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_GroundupNet</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>240a1614-b9ab-4465-8b05-367366ded4e0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_LossTotal</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>2d6bf623-f926-49e4-8e0e-a36fc28556b5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_IncLoss</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>a0ea41ce-882f-41f8-8271-c3a12620b6df</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_PDIncLoss</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>16e9809c-f1af-44c4-aaf0-d0143c14511f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_ClaimCount</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>117ae868-a846-408e-b1b6-637501d658d5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_ClaimCount_PD</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>a9cb1ec3-a8e1-4378-accc-ceddd04e1c69</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>1dee9118-a149-46ed-9ac1-62e835198d07</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CH_OpenClaims</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>14735f18-782d-4b2d-91ab-98c66632bf40</variableId>
       </variableLink>
    </testCaseLink>
@@ -592,15 +502,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/10-Risk Specifics/01-Destination Information</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>de230a07-2fb3-4b8d-95f4-c4e1ce5b0fba</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>94826aad-3381-41eb-8f27-f9fa01cf2eff</guid>
@@ -625,19 +526,10 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/10-Risk Specifics/05-Gen Liab and Cargo</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c7e88ad3-6ec2-455f-9a6a-b53fccb84bb3</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>c7e88ad3-6ec2-455f-9a6a-b53fccb84bb3</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>RS_GLPayroll</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>8b21a098-7d28-4700-b5d8-e53cd94c125b</variableId>
       </variableLink>
    </testCaseLink>

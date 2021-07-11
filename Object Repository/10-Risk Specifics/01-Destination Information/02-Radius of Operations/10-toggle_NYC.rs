@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@id='anyNyc5BoroughsExposure']</value>
+         <value>//span[contains(@id,'anyNyc5BoroughsExposure')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[@id='anyNyc5BoroughsExposure']</value>
+      <value>//span[contains(@id,'anyNyc5BoroughsExposure')]</value>
    </webElementProperties>
 </WebElementEntity>

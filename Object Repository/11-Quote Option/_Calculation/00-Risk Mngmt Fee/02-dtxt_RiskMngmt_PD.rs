@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>12-dropDown_TypeOfBusiness</name>
+   <name>02-dtxt_RiskMngmt_PD</name>
    <tag></tag>
-   <elementGuidId>a58ff8e4-d970-4eac-be29-305512a756cf</elementGuidId>
+   <elementGuidId>e1fd6381-0ed5-489a-8ace-58b56bf4e08e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[contains(@id,'typeOfBusinessId')]</value>
+         <value>//input[@formcontrolname='riskMgrFeePD']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[contains(@id,'typeOfBusinessId')]</value>
+      <value>//input[@formcontrolname='riskMgrFeePD']</value>
    </webElementProperties>
 </WebElementEntity>

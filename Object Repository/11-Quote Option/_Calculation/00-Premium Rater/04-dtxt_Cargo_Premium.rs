@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>12-dropDown_TypeOfBusiness</name>
+   <name>04-dtxt_Cargo_Premium</name>
    <tag></tag>
-   <elementGuidId>a58ff8e4-d970-4eac-be29-305512a756cf</elementGuidId>
+   <elementGuidId>032273c3-4133-4415-b91c-98bc9ce453c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[contains(@id,'typeOfBusinessId')]</value>
+         <value>//input[@id='cargoPremiumInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[contains(@id,'typeOfBusinessId')]</value>
+      <value>//input[@id='cargoPremiumInput']</value>
    </webElementProperties>
 </WebElementEntity>

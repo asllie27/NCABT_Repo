@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>12-dropDown_TypeOfBusiness</name>
+   <name>05-dropDown_ProductUW</name>
    <tag></tag>
-   <elementGuidId>a58ff8e4-d970-4eac-be29-305512a756cf</elementGuidId>
+   <elementGuidId>9018a609-a116-4f77-a9c9-406b4dd431fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[contains(@id,'typeOfBusinessId')]</value>
+         <value>//select[@id='productUWUserId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[contains(@id,'typeOfBusinessId')]</value>
+      <value>//select[@id='productUWUserId']</value>
    </webElementProperties>
 </WebElementEntity>

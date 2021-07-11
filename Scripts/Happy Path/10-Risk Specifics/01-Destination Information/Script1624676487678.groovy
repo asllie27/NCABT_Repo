@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), GlobalVariable.Wait)
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+    GlobalVariable.Wait)
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
 
@@ -23,13 +24,15 @@ WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_De
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/03-dropDown_City'))
 
-WebUI.selectOptionByValue(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/03-dropDown_City'), 'Fleming Island', false)
+WebUI.selectOptionByValue(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/03-dropDown_City'), 
+    'Fleming Island', false)
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
 
-WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), GlobalVariable.Wait)
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+    GlobalVariable.Wait)
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
 
@@ -47,11 +50,18 @@ WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Ra
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/08-txt_200'), '200')
 
-WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/09-txt_OwnerOperator'), '1000')
+WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/09-txt_OwnerOperator'), 
+    '1000')
+
+WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
+
+WebUI.waitForElementVisible(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/10-toggle_NYC'), 
+    GlobalVariable.Wait)
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/10-toggle_NYC'))
 
-WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/11-txt_DescribeExp'), 'TEST')
+WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/11-txt_DescribeExp'), 
+    'TEST')
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/btn_Next'))
 

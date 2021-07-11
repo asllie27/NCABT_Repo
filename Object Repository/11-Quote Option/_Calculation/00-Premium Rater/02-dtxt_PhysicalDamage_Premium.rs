@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>12-dropDown_TypeOfBusiness</name>
+   <name>02-dtxt_PhysicalDamage_Premium</name>
    <tag></tag>
-   <elementGuidId>a58ff8e4-d970-4eac-be29-305512a756cf</elementGuidId>
+   <elementGuidId>013aa640-59ec-4527-90db-2c9e5ff00735</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//select[contains(@id,'typeOfBusinessId')]</value>
+         <value>//input[@id='pdPremiumInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//select[contains(@id,'typeOfBusinessId')]</value>
+      <value>//input[@id='pdPremiumInput']</value>
    </webElementProperties>
 </WebElementEntity>

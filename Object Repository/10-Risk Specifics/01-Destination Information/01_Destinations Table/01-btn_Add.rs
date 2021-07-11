@@ -3,7 +3,7 @@
    <description></description>
    <name>01-btn_Add</name>
    <tag></tag>
-   <elementGuidId>f7ff9e10-4407-4094-bfbc-204c51221604</elementGuidId>
+   <elementGuidId>c372802a-ead9-4342-a25d-41a749d4bb2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='relationship']</value>
+         <value>//input[contains(@id,'relationship')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='relationship']</value>
+      <value>//input[contains(@id,'relationship')]</value>
    </webElementProperties>
 </WebElementEntity>

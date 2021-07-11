@@ -15,8 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('03-Applicant/02-Business Details/01-toggle_Venture'), GlobalVariable.Wait)
-
 WebUI.setText(findTestObject('03-Applicant/02-Business Details/02-txt_YearEstablished'), BD_YearEstablished)
 
 WebUI.click(findTestObject('03-Applicant/02-Business Details/02-txt_1stYear'))
@@ -42,10 +40,45 @@ WebUI.setText(findTestObject('03-Applicant/02-Business Details/08-txt_FederalID'
 
 WebUI.setText(findTestObject('03-Applicant/02-Business Details/09-txt_NAICSCode'), '1234567890')
 
+//Changes added table on going testing
+WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
+
+WebUI.waitForElementClickable(findTestObject('03-Applicant/02-Business Details/Subsidiaries/10-toggle_Subsidiaries'), GlobalVariable.Wait)
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Subsidiaries/10-toggle_Subsidiaries'))
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Subsidiaries/11-btn_Add'))
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/Subsidiaries/13-txt_NameOfCompany'), 'TEST Name of Company')
+
+WebUI.selectOptionByLabel(findTestObject('03-Applicant/02-Business Details/Subsidiaries/12-dropDown_TypeOfBusiness'), 'Corporation', 
+    false)
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/Subsidiaries/14-txt_NumberOfVehicles'), '1234')
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/Subsidiaries/15-txt_Relationship'), 'TEST Relationship')
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Subsidiaries/16-btn_AddSubsidiary'))
+
+WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Previous Companies/15-toggle_CompanyPast'))
+
+WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Previous Companies/16-btn_Add'))
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/Previous Companies/17-txt_CompanyName'), 'TEST Names 1 year')
+
+WebUI.setText(findTestObject('03-Applicant/02-Business Details/Previous Companies/18-txt_NameYearsOfOperation'), '2')
+
+WebUI.click(findTestObject('03-Applicant/02-Business Details/Previous Companies/19-btn_AddCompany'))
+
 //Writing SubmissionNumber
 String quoteNumber = WebUI.getText(findTestObject('03-Applicant/02-Business Details/00-lbl_SubmissionNumber'))
 
 CustomKeywords.'policyNumber.getPolicyNumber.getQuoteNumber'(quoteNumber)
+
 //End
 WebUI.click(findTestObject('03-Applicant/02-Business Details/btn_Next'))
 

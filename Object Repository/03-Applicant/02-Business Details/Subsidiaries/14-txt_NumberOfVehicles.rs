@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='numVechSizeCompInput']</value>
+         <value>//input[@id='numVechSizeComp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='numVechSizeCompInput']</value>
+      <value>//input[@id='numVechSizeComp']</value>
    </webElementProperties>
 </WebElementEntity>

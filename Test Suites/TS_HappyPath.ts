@@ -15,7 +15,7 @@
       <guid>4b0760d9-53d7-4c21-a7cb-97e652d5e950</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Happy Path/00-Login/UW_LogIn</testCaseId>
+      <testCaseId>Test Cases/Happy Path/00-Login/UW_LogIn_TST</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f5646b65-7dbd-4e3d-bed6-a11bdf03ee89</guid>

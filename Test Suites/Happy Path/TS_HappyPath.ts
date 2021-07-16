@@ -15,7 +15,7 @@
       <guid>1ad6c7ca-9706-4f15-90b1-bb5bef879b6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Happy Path/00-Login/UW_LogIn</testCaseId>
+      <testCaseId>Test Cases/Happy Path/00-Login/UW_LogIn_STG</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ea68a374-14fc-4753-890e-5c05a95328c3</guid>
@@ -276,7 +276,7 @@
       <guid>26613d86-fd03-4085-8ebd-2f6a5f555f7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Happy Path/05-Limits/Limits_Label_DropDownText</testCaseId>
+      <testCaseId>Test Cases/Happy Path/05-Limits/Limits</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>750ec779-4c1d-4d30-b3c5-d849b7079047</id>
@@ -512,15 +512,15 @@
          <variableId>3c5e87a9-0986-4c35-9bda-f5295ddf474f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>8ea11c7e-b435-4551-a832-161bfa526854</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HC_CollisionDeductible</value>
          <variableId>ce5a68f1-0642-499a-961d-b865418f4795</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>8ea11c7e-b435-4551-a832-161bfa526854</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>HC_CompreDeductible</value>
          <variableId>79d4bc7b-56ac-41c2-8706-3df938efad8e</variableId>
       </variableLink>
    </testCaseLink>
@@ -637,5 +637,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/10-Risk Specifics/06-Underwriting Questions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1846fd7b-9866-4cb1-8e9f-1570bfdb16e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Happy Path/11-Quote Option/01_Quote Option</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

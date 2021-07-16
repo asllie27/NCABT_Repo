@@ -23,7 +23,6 @@ WebUI.setText(findTestObject('08-Historical Coverage/01-txt_PTStartDate'), HC_Po
 
 WebUI.click(findTestObject('08-Historical Coverage/Outside/Outside_1'))
 
-//WebUI.click(findTestObject('08-Historical Coverage/02-btn_PTEndDate'))
 WebUI.setText(findTestObject('08-Historical Coverage/03-txt_CarrierBroker'), 'TEST INSURANCE')
 
 WebUI.setText(findTestObject('08-Historical Coverage/04-txt_LiabilityLimits'), HC_LiabilityLimits)
@@ -44,9 +43,9 @@ WebUI.setText(findTestObject('08-Historical Coverage/10-txt_LossRunDate'), '0310
 
 WebUI.setText(findTestObject('08-Historical Coverage/11-txt_NoPowerUnits'), HC_PowerUnits)
 
-not_run: WebUI.setText(findTestObject('08-Historical Coverage/12-txt_NoSpareVehicle'), '300')
+WebUI.setText(findTestObject('08-Historical Coverage/12-txt_NoSpareVehicle'), '300')
 
-not_run: WebUI.setText(findTestObject('08-Historical Coverage/13-txt_NoDriver'), '400')
+WebUI.setText(findTestObject('08-Historical Coverage/13-txt_NoDriver'), '400')
 
 WebUI.setText(findTestObject('08-Historical Coverage/CollisionDeductible'), HC_CollisionDeductible)
 

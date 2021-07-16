@@ -37,7 +37,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class getPolicyNumber {
 
 
-	String fileLocation = "C:\\Users\\Elijah Siason\\GIT\\NCABT_Repo\\Test Data\\Policy Numbers.xlsx";
+	String fileLocation = "C:\\Users\\Asllie Sablan\\Katalon Studio\\GIT\\NCABT_Repo\\Test Data\\Policy Numbers.xlsx";
 	String SheetName1 = "Quote Number";
 
 

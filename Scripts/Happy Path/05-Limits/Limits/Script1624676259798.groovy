@@ -23,18 +23,6 @@ WebUI.waitForElementClickable(findTestObject('05-Limits/Limit/01-dropDown_AutoLi
 
 WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/01-dropDown_AutoLiability'), L_AutoLiab, false)
 
-//START Get the Text on Dropdown
-Select getAutoLiability = new Select(DriverFactory.getWebDriver().findElement(By.xpath("//select[@id='autoBILimitId']")));
-
-String autoLiabActual = getAutoLiability.getFirstSelectedOption().getText();
-
-String autoLiabExpected = '$1,000,000'
-
-System.out.println('The item selected is ' + autoLiabActual)
-//END Get the Text on Dropdown
-
-WebUI.verifyMatch(autoLiabExpected, autoLiabActual, false)
-
 WebUI.selectOptionByValue(findTestObject('05-Limits/Symbol/01-dropDown_AL'), '1', false)
 
 WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/03-dropDown_UMPD'), L_UMPD, false)
@@ -53,7 +41,7 @@ WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/06-dropDown_MedicalPay
 
 WebUI.selectOptionByValue(findTestObject('05-Limits/Symbol/06-dropDown_MedicalPayment'), '6', false)
 
-WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/07-dropDown_PIP'), '$250,000 PRIMARY W/$250 DED', false)
+WebUI.selectOptionByLabel(findTestObject('05-Limits/Limit/07-dropDown_PIP'), '$15,000 PRIMARY W/$1,000 DED', false)
 
 WebUI.selectOptionByValue(findTestObject('05-Limits/Symbol/07-dropDown_PIP'), '7', false)
 

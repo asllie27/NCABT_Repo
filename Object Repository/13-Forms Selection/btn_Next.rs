@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>03-txt_Comment</name>
+   <name>btn_Next</name>
    <tag></tag>
-   <elementGuidId>16f6f117-8522-4220-bccd-b698ea7ac405</elementGuidId>
+   <elementGuidId>f4c7ae2d-8440-4edf-843e-2e4ee2944012</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname='comments']</value>
+         <value>//button[contains(.,'Next')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@formcontrolname='comments']</value>
+      <value>//button[contains(.,'Next')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UW_LogIn</name>
+   <name>Bind</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6f3df5f5-e098-47fe-a30f-5b9c14fd3144</testCaseGuid>
+   <testCaseGuid>8deb1251-13d9-415c-97a8-c9f38663af6f</testCaseGuid>
 </TestCaseEntity>

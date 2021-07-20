@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>6e0aab93-14ab-4ff7-a122-7dbf2cf643fc</dataFileGUID>
-   <dataSourceUrl>C:\Users\Asllie Sablan\Katalon Studio\GIT\NCABT_Repo\Test Data\Happy Path\NCABT_ASH.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\Asllie Sablan\Katalon Studio\GIT\NCABT_Repo\Test Data\Happy Path\NCABT.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

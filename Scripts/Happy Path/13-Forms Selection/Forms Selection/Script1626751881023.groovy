@@ -9,13 +9,25 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('02-Create Submission/btn_CreateSubmission'), GlobalVariable.Wait)
+//Forms Selection
+WebUI.click(findTestObject('13-Forms Selection/01-btn_UploadFile'))
 
-WebUI.click(findTestObject('02-Create Submission/btn_CreateSubmission'))
+WebUI.setText(findTestObject('13-Forms Selection/02-txt_FileDescription'), 'File Description Test')
 
+String filePath_forms = 'C:\\Users\\Asllie Sablan\\Downloads\\TestUploadForms.xlsx'
+
+System.out.println('File Path is: ' + filePath_forms)
+
+CustomKeywords.'uploadfile.uploadFile.uploadFileToTest'(findTestObject('12-Bind/03-Documents/btn_ChooseFile'), filePath_forms)
+
+WebUI.click(findTestObject('13-Forms Selection/04-btn_Save'))
+
+WebUI.click(findTestObject('13-Forms Selection/btn_Next'))

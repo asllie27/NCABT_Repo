@@ -21,9 +21,11 @@ WebUI.scrollToPosition(10, 10)
 //Driver
 for (int i = 1; i <= 12; i++) {
 	
-	WebUI.waitForElementClickable(findTestObject('07-Driver/01-btn_Add'), GlobalVariable.Wait)
+	WebUI.delay(1)
 	
 	WebUI.click(findTestObject('07-Driver/01-btn_Add'))
+	
+	WebUI.delay(1)
 	
 	WebUI.setText(findTestObject('07-Driver/02-txt_FName'), 'FirstName' + i)
 	
@@ -84,7 +86,7 @@ for (int i = 1; i <= 12; i++) {
 	WebUI.click(findTestObject('07-Driver/14-btn_AddDriver'))
 	
 }
-
+WebUI.delay(1)
 
 WebUI.click(findTestObject('07-Driver/15-multiDropDown_DriverFilter'))
 

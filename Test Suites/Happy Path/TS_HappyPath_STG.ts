@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_HappyPath</name>
+   <name>TS_HappyPath_STG</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>e41caec3-88b7-4491-884a-af68b39b631c</testSuiteGuid>
+   <testSuiteGuid>78fd1208-037f-405a-b21b-132e3e709fe4</testSuiteGuid>
    <testCaseLink>
       <guid>1ad6c7ca-9706-4f15-90b1-bb5bef879b6c</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -157,18 +157,6 @@
          </iterationEntity>
          <testDataId>Data Files/Happy Path/TD_NCABT</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d51138b9-a563-4c96-a70f-ffc1ab5718a8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bfa99251-8132-4630-a100-704969e6c45c</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f3dfa906-957e-4449-a2d3-33c702144583</guid>
@@ -637,11 +625,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/10-Risk Specifics/06-Underwriting Questions</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1846fd7b-9866-4cb1-8e9f-1570bfdb16e4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Happy Path/11-Quote Option/01_Quote Option</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -23,13 +23,15 @@ for (int i = 1; i <= 9; i++) {
 
 	WebUI.scrollToPosition(10, 10)
 	
-	WebUI.waitForElementClickable(findTestObject('06-Vehicle/01-btn_Add'), GlobalVariable.Wait)
+	WebUI.delay(1)
 	
 	WebUI.click(findTestObject('06-Vehicle/01-btn_Add'))
 	
 	WebUI.waitForElementClickable(findTestObject('06-Vehicle/02-dropDown_Year'), GlobalVariable.Wait)
 	
 	WebUI.selectOptionByLabel(findTestObject('06-Vehicle/02-dropDown_Year'), V_Year, false)
+	
+	WebUI.delay(1)
 	
 	WebUI.setText(findTestObject('06-Vehicle/03-txt_Make'), V_Make)
 	

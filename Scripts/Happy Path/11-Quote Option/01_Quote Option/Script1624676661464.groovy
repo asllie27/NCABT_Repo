@@ -22,11 +22,11 @@ import java.math.BigDecimal as BigDecimal
 import java.math.RoundingMode as RoundingMode
 import java.text.DecimalFormat as DecimalFormat
 
-WebUI.waitForElementClickable(findTestObject('11-Quote Option/01-btn_DownloadExp'), GlobalVariable.Wait)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('11-Quote Option/01-btn_DownloadExp'))
 
-WebUI.delay(600)
+WebUI.delay(500)
 
 ////Upload Start
 //WebUI.waitForElementClickable(findTestObject('11-Quote Option/03-btn_Upload'), 45)
@@ -50,5 +50,5 @@ WebUI.delay(600)
 //WebUI.waitForElementVisible(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
 //
 //WebUI.waitForElementClickable(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
-
 WebUI.click(findTestObject('11-Quote Option/btn_Next'))
+

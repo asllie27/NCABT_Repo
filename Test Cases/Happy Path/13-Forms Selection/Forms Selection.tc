@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>03-Filings Information</name>
+   <name>Forms Selection</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e697f8f4-a81b-4bb8-a293-a04d541ffe28</testCaseGuid>
+   <testCaseGuid>b0670f73-884b-4939-9cdb-138644989d37</testCaseGuid>
 </TestCaseEntity>

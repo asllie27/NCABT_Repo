@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Happy Path/00-Login/UW_LogIn'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Happy Path/00-Login/UW_LogIn_TST'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Happy Path/02-CreateSubmission/CreateSubmission'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -382,10 +382,10 @@ WebUI.click(findTestObject('09-Claims History/btn_Next'))
 
 //RISK SPECIFICS
 //DESTINATION INFO
-WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+WebUI.waitForElementClickable(findTestObject('null'), 
     GlobalVariable.Wait)
 
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/02-txt_ZipCode'), '32003')
 
@@ -396,12 +396,12 @@ WebUI.selectOptionByValue(findTestObject('10-Risk Specifics/01-Destination Infor
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
 
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
+WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+WebUI.waitForElementClickable(findTestObject('null'), 
     GlobalVariable.Wait)
 
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/02-txt_ZipCode'), '07001')
 
@@ -409,7 +409,7 @@ WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Dest
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
 
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/02-Radius of Operations/06-txt_0-50'), '500')
 

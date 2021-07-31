@@ -18,9 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Bind Requirements
+WebUI.delay(1)
+
 WebUI.click(findTestObject('12-Bind/01-Bind Requirements/01-btn_Add'))
 
 WebUI.selectOptionByLabel(findTestObject('12-Bind/01-Bind Requirements/02-dropDown_BindRequirement'), 'Signed Quote', false)
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('12-Bind/01-Bind Requirements/03-dropDown_Status'), 'Complete', false)
 
@@ -28,12 +32,18 @@ WebUI.setText(findTestObject('12-Bind/01-Bind Requirements/03-txt_Comment'), 'Te
 
 WebUI.click(findTestObject('12-Bind/01-Bind Requirements/04-btn_Save'))
 
+WebUI.delay(1)
+
 WebUI.scrollToElement(findTestObject('12-Bind/01-Bind Requirements/01-btn_Add'), GlobalVariable.Wait)
 
 WebUI.waitForElementClickable(findTestObject('12-Bind/02-Quote Condition/01-btn_Add'), GlobalVariable.Wait)
 
 //Quote Condition
+WebUI.delay(1)
+
 WebUI.click(findTestObject('12-Bind/02-Quote Condition/01-btn_Add'))
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('12-Bind/02-Quote Condition/02-dropDown_Condition'), 'Other', false)
 
@@ -44,6 +54,8 @@ WebUI.setText(findTestObject('12-Bind/02-Quote Condition/04-txt_Comments'), 'Com
 WebUI.click(findTestObject('12-Bind/02-Quote Condition/05-btn_Save'))
 
 //Documents
+WebUI.delay(1)
+
 WebUI.scrollToElement(findTestObject('12-Bind/02-Quote Condition/01-btn_Add'), GlobalVariable.Wait)
 
 WebUI.waitForElementClickable(findTestObject('12-Bind/03-Documents/01-btn_Add'), GlobalVariable.Wait)
@@ -54,6 +66,8 @@ WebUI.selectOptionByLabel(findTestObject('12-Bind/03-Documents/02-dropDown_Categ
 
 WebUI.setText(findTestObject('12-Bind/03-Documents/03-txt_Description'), 'Description Test')
 
+WebUI.delay(1)
+
 //Upload
 String filePath_Bind = 'C:\\Users\\Asllie Sablan\\Downloads\\TestUpload.txt'
 
@@ -63,7 +77,7 @@ CustomKeywords.'uploadfile.uploadFile.uploadFileToTest'(findTestObject('12-Bind/
 
 WebUI.click(findTestObject('12-Bind/03-Documents/04-btn_Save'))
 
-WebUI.waitForElementClickable(findTestObject('12-Bind/btn_Next'), GlobalVariable.Wait)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('12-Bind/btn_Next'))
 

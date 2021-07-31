@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementClickable(findTestObject('08-Historical Coverage/01-txt_PTStartDate'), GlobalVariable.Wait)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('08-Historical Coverage/01-txt_PTStartDate'))
 

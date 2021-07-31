@@ -32,6 +32,8 @@ WebUI.setText(findTestObject('03-Applicant/04-Additional Interest/05-txt_ZipCode
 
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/06-datePicker_EffectiveDate'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/08-toggle_Waiver'))
 
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/09-toggle_Primary'))

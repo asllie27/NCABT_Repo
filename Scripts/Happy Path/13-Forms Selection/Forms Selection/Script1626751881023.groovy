@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Forms Selection
+WebUI.delay(1)
+
 WebUI.click(findTestObject('13-Forms Selection/01-btn_UploadFile'))
 
 WebUI.setText(findTestObject('13-Forms Selection/02-txt_FileDescription'), 'File Description Test')

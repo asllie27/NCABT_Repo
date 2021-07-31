@@ -79,5 +79,7 @@ WebUI.setText(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/02-Cargo/C
 
 WebUI.click(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/02-Cargo/Commodities Hauled Table/04-btn_AddCommodity'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('10-Risk Specifics/05-Gen Liab and Cargo/btn_Next'))
 

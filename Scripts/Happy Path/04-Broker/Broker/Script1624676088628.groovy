@@ -16,17 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Broker
-WebUI.waitForElementClickable(findTestObject('04-Broker/01-dropDown_Agency'), GlobalVariable.Wait)
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/01-dropDown_Agency'), B_Agency, false)
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/02-dropDown_AgentName'), B_AgentName, false)
 
 WebUI.click(findTestObject('04-Broker/03-toggle_BrokerAcct'))
 
-WebUI.waitForElementClickable(findTestObject('04-Broker/04-dropDown_Retailer'), GlobalVariable.Wait)
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/04-dropDown_Retailer'), 'American Business Insurance Services', false)
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('04-Broker/05-dropDown_AgentName'), 'SubJames Business', false)
 

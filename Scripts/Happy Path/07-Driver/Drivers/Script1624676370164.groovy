@@ -15,77 +15,77 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.scrollToPosition(10, 10)
 
 //Driver
 for (int i = 1; i <= 12; i++) {
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('07-Driver/01-btn_Add'))
+
+    WebUI.delay(1)
 	
-	WebUI.delay(1)
-	
-	WebUI.click(findTestObject('07-Driver/01-btn_Add'))
-	
-	WebUI.delay(1)
-	
-	WebUI.setText(findTestObject('07-Driver/02-txt_FName'), 'FirstName' + i)
-	
-	WebUI.setText(findTestObject('07-Driver/03-txt_LName'), D_Lname)
-	
-	WebUI.setText(findTestObject('07-Driver/04-txt_LicenseNumber'), 'F255-921-50-094-' + i)
-	
-	WebUI.click(findTestObject('07-Driver/05-txt_DOB'))
-	
-	WebUI.setText(findTestObject('07-Driver/05-txt_DOB'), D_DOB)
-	
-	WebUI.click(findTestObject('07-Driver/06-toggle_OSD'))
-	
-	WebUI.selectOptionByLabel(findTestObject('07-Driver/07-dropDown_State'), D_State, false)
-	
-	WebUI.setText(findTestObject('07-Driver/08-txt_YDE'), '3')
-	
-	WebUI.setText(findTestObject('07-Driver/09-txt-YCDE'), D_YCDE)
-	
-	//AddIncident
-	WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
-	
-	WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
-	
-	WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'At-Fault', false)
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
-	
-	WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03182021')
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
-	
-	WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03202021')
-	
-	WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
-	
-	//AddIncident
-	WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
-	
-	WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
-	
-	WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'Not At-Fault', false)
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
-	
-	WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03202021')
-	
-	WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
-	
-	WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03272021')
-	
-	WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
-	
-	WebUI.click(findTestObject('07-Driver/14-btn_AddDriver'))
-	
+	WebUI.waitForElementClickable(findTestObject('07-Driver/01-btn_Add'), GlobalVariable.Wait)
+
+    WebUI.setText(findTestObject('07-Driver/02-txt_FName'), 'FirstName' + i)
+
+    WebUI.setText(findTestObject('07-Driver/03-txt_LName'), D_Lname)
+
+    WebUI.setText(findTestObject('07-Driver/04-txt_LicenseNumber'), 'F255-921-50-094-' + i)
+
+    WebUI.click(findTestObject('07-Driver/05-txt_DOB'))
+
+    WebUI.setText(findTestObject('07-Driver/05-txt_DOB'), D_DOB)
+
+    WebUI.click(findTestObject('07-Driver/06-toggle_OSD'))
+
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/07-dropDown_State'), D_State, false)
+
+    WebUI.setText(findTestObject('07-Driver/08-txt_YDE'), '3')
+
+    WebUI.setText(findTestObject('07-Driver/09-txt-YCDE'), D_YCDE)
+
+    //AddIncident
+    WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
+
+    WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
+
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'At-Fault', false)
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03182021')
+
+    WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03202021')
+
+    WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
+
+    //AddIncident
+    WebUI.click(findTestObject('07-Driver/10-btn_AddNewIncident'))
+
+    WebUI.waitForElementVisible(findTestObject('07-Driver/11-dropDown_IncidentType'), GlobalVariable.Wait)
+
+    WebUI.selectOptionByLabel(findTestObject('07-Driver/11-dropDown_IncidentType'), 'Not At-Fault', false)
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.click(findTestObject('07-Driver/12-txt_IncidentDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_IncidentDate'), '03202021')
+
+    WebUI.click(findTestObject('07-Driver/12-txt_ConvictionDate'))
+
+    WebUI.setText(findTestObject('07-Driver/12-txt_ConvictionDate'), '03272021')
+
+    WebUI.click(findTestObject('07-Driver/13-btn_IncidentSave'))
+
+    WebUI.click(findTestObject('07-Driver/14-btn_AddDriver'))
 }
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('07-Driver/15-multiDropDown_DriverFilter'))

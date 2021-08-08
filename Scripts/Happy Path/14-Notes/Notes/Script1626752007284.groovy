@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(1)
+
+WebUI.waitForElementClickable(findTestObject('14-Notes/01-btn_Add'), GlobalVariable.Wait)
+
 WebUI.click(findTestObject('14-Notes/01-btn_Add'))
+
+WebUI.delay(1)
 
 WebUI.selectOptionByLabel(findTestObject('14-Notes/02-dropDown_Category'), 'Miscellaneous', false)
 

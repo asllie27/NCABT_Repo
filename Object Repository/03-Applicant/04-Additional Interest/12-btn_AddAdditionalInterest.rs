@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>11-btn_Next</name>
+   <name>12-btn_AddAdditionalInterest</name>
    <tag></tag>
-   <elementGuidId>80c5431e-f2e6-4e2f-ae60-2f673cfd7504</elementGuidId>
+   <elementGuidId>b8b093b7-6c96-40a2-b17c-34d7dda672bd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[contains(.,'Next')]</value>
+         <value>//button[contains(.,'Add Additional Interest')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[contains(.,'Next')]</value>
+      <value>//button[contains(.,'Add Additional Interest')]</value>
    </webElementProperties>
 </WebElementEntity>

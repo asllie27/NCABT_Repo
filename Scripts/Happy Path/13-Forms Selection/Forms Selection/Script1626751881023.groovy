@@ -32,4 +32,6 @@ CustomKeywords.'uploadfile.uploadFile.uploadFileToTest'(findTestObject('12-Bind/
 
 WebUI.click(findTestObject('13-Forms Selection/04-btn_Save'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('13-Forms Selection/btn_Next'))

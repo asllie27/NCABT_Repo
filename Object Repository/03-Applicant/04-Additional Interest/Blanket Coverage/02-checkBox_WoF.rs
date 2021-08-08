@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>03-txt_Description</name>
+   <name>02-checkBox_WoF</name>
    <tag></tag>
-   <elementGuidId>4425efad-459f-4dfc-8edb-28edd813ce42</elementGuidId>
+   <elementGuidId>c682a15b-bfb0-4b5f-bae2-42ef9386141e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@formcontrolname='description']</value>
+         <value>//input[@formcontrolname='isWaiverOfSubrogation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@formcontrolname='description']</value>
+      <value>//input[@formcontrolname='isWaiverOfSubrogation']</value>
    </webElementProperties>
 </WebElementEntity>

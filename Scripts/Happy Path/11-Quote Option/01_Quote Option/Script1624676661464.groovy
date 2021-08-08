@@ -24,10 +24,10 @@ import java.text.DecimalFormat as DecimalFormat
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('11-Quote Option/01-btn_DownloadExp'))
-
-WebUI.delay(500)
-
+//WebUI.click(findTestObject('11-Quote Option/01-btn_DownloadExp'))
+//
+//WebUI.delay(500)
+//
 ////Upload Start
 //WebUI.waitForElementClickable(findTestObject('11-Quote Option/03-btn_Upload'), 45)
 //
@@ -48,7 +48,8 @@ WebUI.delay(500)
 //WebUI.click(findTestObject('11-Quote Option/02-btn_CalculatePremium'))
 //
 //WebUI.waitForElementVisible(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
-//
-//WebUI.waitForElementClickable(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
+
+WebUI.waitForElementClickable(findTestObject('11-Quote Option/btn_Next'), GlobalVariable.Wait)
+
 WebUI.click(findTestObject('11-Quote Option/btn_Next'))
 

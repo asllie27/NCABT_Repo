@@ -17,25 +17,45 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
+//WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+//    GlobalVariable.Wait)
+//
+//WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
+//
+//WebUI.delay(1)
+//
+//WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/02-txt_ZipCode'), '59001')
+//
+//WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'))
+//
+//WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
+//
+//WebUI.delay(1)
+//
+//WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'), 
+//    GlobalVariable.Wait)
+//
+//WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
+//
+//WebUI.delay(2)
+
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'), 
+    GlobalVariable.Wait)
+
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
-
-WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/02-txt_ZipCode'), '59001')
-
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'))
-
-WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
-
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
 
 WebUI.delay(1)
-
-WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/01-btn_Add'))
 
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/02-txt_ZipCode'), '07001')
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/04-txt_Travel'), '500')
+
+WebUI.waitForElementClickable(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'),
+	GlobalVariable.Wait)
 
 WebUI.click(findTestObject('10-Risk Specifics/01-Destination Information/01_Destinations Table/05-btn_AddDestination'))
 

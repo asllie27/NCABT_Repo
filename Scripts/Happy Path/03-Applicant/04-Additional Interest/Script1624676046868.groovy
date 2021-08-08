@@ -38,7 +38,17 @@ WebUI.click(findTestObject('03-Applicant/04-Additional Interest/08-toggle_Waiver
 
 WebUI.click(findTestObject('03-Applicant/04-Additional Interest/09-toggle_Primary'))
 
-WebUI.click(findTestObject('03-Applicant/04-Additional Interest/10-btn_AddAdditionalInterest'))
+WebUI.click(findTestObject('03-Applicant/04-Additional Interest/10-toggle_AutoLiab'))
 
-WebUI.click(findTestObject('03-Applicant/04-Additional Interest/11-btn_Next'))
+WebUI.click(findTestObject('03-Applicant/04-Additional Interest/11-toggle_GenLiab'))
+
+WebUI.click(findTestObject('03-Applicant/04-Additional Interest/12-btn_AddAdditionalInterest'))
+
+WebUI.check(findTestObject('03-Applicant/04-Additional Interest/Blanket Coverage/01-checkBox_AI'))
+
+WebUI.check(findTestObject('03-Applicant/04-Additional Interest/Blanket Coverage/02-checkBox_WoF'))
+
+WebUI.check(findTestObject('03-Applicant/04-Additional Interest/Blanket Coverage/03-checkBox_PNC'))
+
+WebUI.click(findTestObject('03-Applicant/04-Additional Interest/13-btn_Next'))
 

@@ -64,7 +64,7 @@ WebUI.click(findTestObject('12-Bind/03-Documents/01-btn_Add'))
 
 WebUI.selectOptionByLabel(findTestObject('12-Bind/03-Documents/02-dropDown_Category'), 'Category 1', false)
 
-WebUI.setText(findTestObject('12-Bind/03-Documents/03-txt_Description'), 'Description Test')
+WebUI.setText(findTestObject('12-Bind/03-Documents/Page_BoxTruck/03-txt_Description'), 'Description Test')
 
 WebUI.delay(1)
 
@@ -78,6 +78,8 @@ CustomKeywords.'uploadfile.uploadFile.uploadFileToTest'(findTestObject('12-Bind/
 WebUI.click(findTestObject('12-Bind/03-Documents/04-btn_Save'))
 
 WebUI.delay(1)
+
+WebUI.waitForElementClickable(findTestObject('12-Bind/btn_Next'), GlobalVariable.Wait)
 
 WebUI.click(findTestObject('12-Bind/btn_Next'))
 

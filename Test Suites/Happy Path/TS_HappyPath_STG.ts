@@ -626,4 +626,28 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Happy Path/10-Risk Specifics/06-Underwriting Questions</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>af7e0d6a-6323-49e8-9d0a-de245f55e107</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Happy Path/11-Quote Option/01_Quote Option</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>894679c9-cd39-4f89-a0d7-cfab549e2cd3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Happy Path/12-Bind/Bind</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9efb4905-f341-43bb-ba97-796192a41ddb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Happy Path/13-Forms Selection/Forms Selection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fdf3228f-49ed-47f1-9c90-3bbb83782ef0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Happy Path/14-Notes/Notes</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

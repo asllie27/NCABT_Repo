@@ -62,7 +62,7 @@ WebUI.click(findTestObject('03-Applicant/02-Business Details/Subsidiaries/16-btn
 
 WebUI.scrollToPosition(0, GlobalVariable.Position_Y)
 
-WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('03-Applicant/02-Business Details/Previous Companies/15-toggle_CompanyPast'))
 

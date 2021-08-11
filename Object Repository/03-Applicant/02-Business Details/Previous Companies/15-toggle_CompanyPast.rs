@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(@id,'companyPastSwitch')]</value>
+         <value>//span[@id='companyPastSwitch']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(@id,'companyPastSwitch')]</value>
+      <value>//span[@id='companyPastSwitch']</value>
    </webElementProperties>
 </WebElementEntity>
